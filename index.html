@@ -21,6 +21,9 @@
         </div>
     </div>
     <div class="ui text center aligned container segment relaxed grid">
+    	<div id="vue-message">
+    		{{message}}
+    	</div>
         <!-- <div class="ui horizontal statistic row">
             <div class="label">
                 Showing
@@ -37,10 +40,26 @@
             <div class="sixteen wide column">
                 <h3>Select your need</h3>
                 <div class="ui fluid selection dropdown massive input text center">
-                    <input type="hidden" name="user" value="porumai">
+                    <input type="hidden" name="user" value="">
                     <i class="dropdown icon"></i>
-                    <div class="default text">Pick a need</div>
+                    <div class="default text">Select your need</div>
                     <div class="menu">
+                        <div class="item" data-value="">
+                            <div class="ui segment">
+                                <div class="section">
+                                    All Softwares
+                                </div>
+                                <div class="ui divider"></div>
+                                <div class="section">
+                                    <div class="ui label">
+                                        <i class="mail icon"></i> Utility
+                                    </div>
+                                    <div class="ui label">
+                                        <i class="music icon"></i> Music
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="item" data-value="porumai">
                             <div class="ui segment">
                                 <div class="section">
@@ -94,13 +113,13 @@
             </div>
         </div>
 
-        <small>or</small>
+        <h5>or</h5>
 
         <div class="ui container row">
-            <h3>Select tags</h3>
+            <!-- <h3>Select tags</h3> -->
             <div class="sixteen wide column">
                 <select name="skills" multiple="" class="ui fluid dropdown">
-                    <option value="">Skills</option>
+                    <option value="">Select Tags</option>
                     <option value="angular">Angular</option>
                     <option value="css">CSS</option>
                     <option value="design">Graphic Design</option>
@@ -192,6 +211,7 @@
     </div>
 
     <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/vue.min.js"></script>
     <script type="text/javascript" src="/js/semantic.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
