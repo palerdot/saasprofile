@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "text": "Leads for software developers",
+        "tags": [1, 2]
+    },
+    {
+        "id": 2,
+        "text": "Music Playlist Exporters",
+        "tags": [2]
+    }
+]

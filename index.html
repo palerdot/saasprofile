@@ -21,9 +21,9 @@
         </div>
     </div>
     <div class="ui text center aligned container segment relaxed grid">
-    	<div id="vue-message">
-    		{{message}}
-    	</div>
+        <div id="vue-message">
+            {{message}}
+        </div>
         <!-- <div class="ui horizontal statistic row">
             <div class="label">
                 Showing
@@ -112,39 +112,24 @@
                 </div>
             </div>
         </div>
-
         <h5>or</h5>
-
-        <div class="ui container row">
+        <div id="tags-list-vue" class="ui container row">
             <!-- <h3>Select tags</h3> -->
             <div class="sixteen wide column">
-                <select name="skills" multiple="" class="ui fluid dropdown">
-                    <option value="">Select Tags</option>
-                    <option value="angular">Angular</option>
-                    <option value="css">CSS</option>
-                    <option value="design">Graphic Design</option>
-                    <option value="ember">Ember</option>
-                    <option value="html">HTML</option>
-                    <option value="ia">Information Architecture</option>
-                    <option value="javascript">Javascript</option>
-                    <option value="mech">Mechanical Engineering</option>
-                    <option value="meteor">Meteor</option>
-                    <option value="node">NodeJS</option>
-                    <option value="plumbing">Plumbing</option>
-                    <option value="python">Python</option>
-                    <option value="rails">Rails</option>
-                    <option value="react">React</option>
-                    <option value="repair">Kitchen Repair</option>
-                    <option value="ruby">Ruby</option>
-                    <option value="ui">UI Design</option>
-                    <option value="ux">User Experience</option>
-                </select>
+                <div class="ui fluid selection dropdown multiple">
+                    <input type="hidden" name="tags">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Select Tags</div>
+                    <div class="menu">
+                        <div class="item" v-for="tag in tags" v-bind:data-value="tag.id" v-bind:data-text="tag.name">
+                            <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- <div class="ui divider"></div> -->
-        
     </div>
-
     <div class="ui text center aligned container segment relaxed grid">
         <div class="ui container row grid">
             <div class="ui two stackable cards">
@@ -209,7 +194,6 @@
             </div>
         </div>
     </div>
-
     <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/vue.min.js"></script>
     <script type="text/javascript" src="/js/semantic.min.js"></script>

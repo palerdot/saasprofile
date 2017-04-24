@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Utility",
+        "icon_class": "mail icon" 
+    },
+    {
+        "id": 2,
+        "name": "Music",
+        "icon_class": "music icon" 
+    }
+]
