@@ -49,9 +49,21 @@ var APP = {
         });
 
         this.tags_list_vue = new Vue({
+
             el: "#tags-list-vue",
+            
             data: {
                 tags: this.tagsInfo
+            },
+
+            methods: {
+                "handleChange": function (e) {
+                    var current_tags = _.map( e.target.value.split(","), function (id) {
+                        // trim the id and return
+                        return _.trim( id );
+                    } );
+                    console.log("Porumai! tag changed ", current_tags, e, e.target.value);
+                }
             }
         });
     }
