@@ -21,9 +21,6 @@
         </div>
     </div>
     <div class="ui text center aligned container segment relaxed grid">
-        <div id="vue-message">
-            {{message}}
-        </div>
         <!-- <div class="ui horizontal statistic row">
             <div class="label">
                 Showing
@@ -36,74 +33,23 @@
             </div>
         </div>
         <div class="ui divider"></div> -->
-        <div class="ui container center aligned row">
+        <div id="saas-need-vue" class="ui container center aligned row">
             <div class="sixteen wide column">
                 <h3>Select your need</h3>
                 <div class="ui fluid selection dropdown massive input text center">
-                    <input type="hidden" name="user" value="">
+                    <input type="hidden" name="saas-need" value="">
                     <i class="dropdown icon"></i>
                     <div class="default text">Select your need</div>
                     <div class="menu">
-                        <div class="item" data-value="">
+                        <div class="item" v-for="need in saasNeed" data-value="need.id">
                             <div class="ui segment">
                                 <div class="section">
-                                    All Softwares
+                                    {{ need.text }}
                                 </div>
                                 <div class="ui divider"></div>
                                 <div class="section">
-                                    <div class="ui label">
-                                        <i class="mail icon"></i> Utility
-                                    </div>
-                                    <div class="ui label">
-                                        <i class="music icon"></i> Music
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" data-value="porumai">
-                            <div class="ui segment">
-                                <div class="section">
-                                    Porumai
-                                </div>
-                                <div class="ui divider"></div>
-                                <div class="section">
-                                    <div class="ui label">
-                                        <i class="mail icon"></i> Utility
-                                    </div>
-                                    <div class="ui label">
-                                        <i class="music icon"></i> Music
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" data-value="jenny">
-                            <div class="ui segment">
-                                <div class="section">
-                                    Leads for developers
-                                </div>
-                                <div class="ui divider"></div>
-                                <div class="section">
-                                    <div class="ui label">
-                                        <i class="mail icon"></i> Utility
-                                    </div>
-                                    <div class="ui label">
-                                        <i class="music icon"></i> Music
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item" data-value="jenny">
-                            <div class="ui segment">
-                                <div class="section">
-                                    Music playlist exporting
-                                </div>
-                                <div class="ui divider"></div>
-                                <div class="section">
-                                    <div class="ui label">
-                                        <i class="mail icon"></i> Utility
-                                    </div>
-                                    <div class="ui label">
-                                        <i class="music icon"></i> Music
+                                	<div v-for="tag in get_tags_for_need( need )" class="ui label">
+                                        <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                                     </div>
                                 </div>
                             </div>

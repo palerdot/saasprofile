@@ -41,19 +41,42 @@ var APP = {
     // init vue components
     init_vues: function() {
 
-        this.vue_message = new Vue({
-            el: "#vue-message",
+        var self = this; // save reference
+
+        // saas need vue
+        this.saas_need_vue = new Vue({
+
+            el: "#saas-need-vue",
+
             data: {
-                message: "Porumai! from Vue"
+                saasNeed: _.clone( this.needInfo )
+            },
+
+            methods: {
+                "handleChange": function (e) {
+                    console.log("Porumai! handling saas need change ", e, e.target.value);
+                },
+
+                // for the given need, construct tag html from tag ids
+                "get_tags_for_need": function (need) {
+                    
+                    var need_tags = _.filter( self.tagsInfo, function (tag) {
+                        return _.includes( need.tags, tag.id );
+                    } );
+
+                    return need_tags;
+                }
             }
+
         });
 
+        // tags list vue
         this.tags_list_vue = new Vue({
 
             el: "#tags-list-vue",
             
             data: {
-                tags: this.tagsInfo
+                tags: _.clone( this.tagsInfo )
             },
 
             methods: {
@@ -66,6 +89,8 @@ var APP = {
                 }
             }
         });
+
+
     }
 
 };
