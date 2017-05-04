@@ -37,11 +37,11 @@
             <div class="sixteen wide column">
                 <h3>Select your need</h3>
                 <div class="ui fluid selection dropdown massive input text center">
-                    <input type="hidden" name="saas-need" value="">
+                    <input type="hidden" name="saas-need" v-on:change="handleChange">
                     <i class="dropdown icon"></i>
                     <div class="default text">Select your need</div>
                     <div class="menu">
-                        <div class="item" v-for="need in saasNeed" data-value="need.id">
+                        <div class="item" v-for="need in saasNeed" v-bind:data-value="need.id">
                             <div class="ui segment">
                                 <div class="section">
                                     {{ need.text }}
@@ -60,7 +60,6 @@
         </div>
         <h5>or</h5>
         <div id="tags-list-vue" class="ui container row">
-            <!-- <h3>Select tags</h3> -->
             <div class="sixteen wide column">
                 <div class="ui fluid selection dropdown multiple">
                     <input type="hidden" name="tags" v-on:change="handleChange">
@@ -76,39 +75,39 @@
         </div>
         <!-- <div class="ui divider"></div> -->
     </div>
-    <div class="ui text center aligned container segment relaxed grid">
+    <div id="saas-list-vue" class="ui text center aligned container segment relaxed grid">
         <div class="ui container row grid">
-            <div class="ui two stackable cards">
-                <a class="ui card" href="https://github.com/palerdot" target="_blank">
+            <div class="ui stackable cards">
+                <a class="ui card" v-for="saas in saas_list" href="{{url}}" target="_blank">
                     <div class="content">
-                        <img class="left floated mini ui image" src="/icons/logo1.png">
+                        <img class="left floated mini ui image" v-bind:src="saas.logo">
                         <div class="header">
-                            Less Annoying CRM
+                            {{saas.name}}
                         </div>
                         <div class="meta">
-                            CRM software for small businesses.
+                            {{saas.description}}
                         </div>
                     </div>
                     <div class="content">
                         <div class="description left aligned">
                             <ol class="ui list">
-                                <li value="*">Signing Up</li>
-                                <li value="*">User Benefits</li>
-                                <li value="*">User Types</li>
-                                <li value="*">Deleting Your Account</li>
+                            	<li value="*" v-for="i in saas.info">{{i}}</li>
                             </ol>
                         </div>
                     </div>
                     <div class="extra content">
-                        <div class="ui label">
+                    	<div v-for="tag in get_tags_for_saas_list( saas )" class="ui label">
+                            <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
+                        </div>
+                        <!-- <div class="ui label">
                             <i class="mail icon"></i> Utility
                         </div>
                         <div class="ui label">
                             <i class="music icon"></i> Music
-                        </div>
+                        </div> -->
                     </div>
                 </a>
-                <a class="ui card" href="https://github.com/palerdot" target="_blank">
+                <!-- <a class="ui card" href="https://github.com/palerdot" target="_blank">
                     <div class="content">
                         <img class="left floated mini ui image" src="/icons/logo2.png">
                         <div class="header">
@@ -136,7 +135,9 @@
                             <i class="music icon"></i> Music
                         </div>
                     </div>
-                </a>
+                </a> -->
+
+
             </div>
         </div>
     </div>

@@ -18,10 +18,17 @@ var APP = {
             contentType: "application/json"
         });
 
-        $.when($fetchTagsData, $fetchNeedData)
-            .done(function(tData, nData) {
+        var $fetchSassData = $.ajax({
+            url: "/data/saas-list.json",
+            method: "get",
+            contentType: "application/json"
+        });
+
+        $.when($fetchTagsData, $fetchNeedData, $fetchSassData)
+            .done(function(tData, nData, sData) {
                 self.tagsInfo = tData[0];
                 self.needInfo = nData[0];
+                self.saasInfo = sData[0];
                 // proceed with app initialization
                 self.start();
             });
@@ -49,12 +56,18 @@ var APP = {
             el: "#saas-need-vue",
 
             data: {
-                saasNeed: _.clone( this.needInfo )
+                saasNeed: _.cloneDeep( this.needInfo )
             },
 
             methods: {
+
                 "handleChange": function (e) {
-                    console.log("Porumai! handling saas need change ", e, e.target.value);
+                    
+                    var selected_need = _.find( self.needInfo, function (need) {
+                        return need.id == e.target.value;
+                    } );
+
+                    console.log("Porumai! handling saas need change ", self.tags_list_vue, selected_need, e.target.value );
                 },
 
                 // for the given need, construct tag html from tag ids
@@ -76,7 +89,7 @@ var APP = {
             el: "#tags-list-vue",
             
             data: {
-                tags: _.clone( this.tagsInfo )
+                tags: _.cloneDeep( this.tagsInfo )
             },
 
             methods: {
@@ -85,9 +98,32 @@ var APP = {
                         // trim the id and return
                         return _.trim( id );
                     } );
-                    console.log("Porumai! tag changed ", current_tags, e, e.target.value);
+                    console.log("Porumai! tag changed ", current_tags, e, e.target.value, this.selected_tags);
                 }
             }
+        });
+
+        // main saas list vue!!
+        this.saas_list_vue = new Vue({
+
+            el: "#saas-list-vue",
+
+            data: {
+                saas_list: _.cloneDeep( this.saasInfo )
+            },
+
+            methods: {
+                // for the given saas, construct tag html from tag ids
+                "get_tags_for_saas_list": function (saas) {
+                    
+                    var tags = _.filter( self.tagsInfo, function (tag) {
+                        return _.includes( saas.tags, tag.id );
+                    } );
+
+                    return tags;
+                }
+            }
+
         });
 
 

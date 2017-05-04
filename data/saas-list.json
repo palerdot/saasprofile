@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "name": "Porumai",
+        "url": "https://github.com/palerdot",
+        "logo": "/icons/logo1.png",
+        "description": "Amaidhi patience porumai",
+        "info": [
+            "Open Source",
+            "Freemium"
+        ],
+        "tags": [1, 2]
+    },
+
+    {
+        "id": 1,
+        "name": "Amaidhi",
+        "url": "https://google.com",
+        "logo": "/icons/logo2.png",
+        "description": "patience porumai amaidhi",
+        "info": [
+            "Paid version only",
+            "Customer Support"
+        ],
+        "tags": [1]
+    }
+]
