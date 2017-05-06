@@ -39,10 +39,52 @@ var APP = {
         this.init_vues();
         // NOTE: init dom events after vues initialization to avoid 'semantic-ui dropdown' init bugs
         this.init_DOM_events();
+        // create a debounced version of update saas list function
+        // this is because semantic ui randomly triggers on change when dropdown is cleared
+        // debouncing helps filtering individual remove/add and just takes the final value of the dropdown
+        this.update_saas_list = _.debounce( this.update_saas_list_from_tags, 1 );
+        // tracking the source of where a selection is made - saas-need/tags-list
+        this.source = "";
     },
 
     init_DOM_events: function() {
-        $("select, .ui.dropdown").dropdown();
+        var self = this; // save reference
+        // initialize dropdown for saas need
+        $("#saas-need-dropdown").dropdown({
+            onChange: _.debounce ( function () {
+
+                // set the source as "saas-need"
+                self.source = "saas-need";
+
+                var saas_need_value = $(this).dropdown("get value");
+
+                console.log("saas need dropdown on change ", saas_need_value );
+
+                if (!saas_need_value) {
+                    console.log("SAAS need cleared !!");
+                    // do not proceed to update the tags 
+                    // as we are clearing the tags based on changes to the tag dropdown
+                    return;
+                }
+
+                var selected_need = _.find( self.needInfo, function (need) {
+                    return need.id == saas_need_value;
+                } );
+                
+                // update the actual saas list
+                // self.update_saas_list( selected_need.tags );
+
+                // visually update the tags of selected need for the "tags-list-dropdown" semantic ui dropdown
+                $("#tag-list-dropdown").dropdown("set exactly", _.map(selected_need.tags, function (t) { return t + ""; }) );
+                
+            }, 1 )
+        });
+        // initialize dropdown for tag list
+        $("#tag-list-dropdown").dropdown({
+            onChange: function () {
+                // console.log("PORUMAI !! tag list dropdown change ");
+            }
+        });
     },
 
     // init vue components
@@ -60,15 +102,6 @@ var APP = {
             },
 
             methods: {
-
-                "handleChange": function (e) {
-                    
-                    var selected_need = _.find( self.needInfo, function (need) {
-                        return need.id == e.target.value;
-                    } );
-
-                    console.log("Porumai! handling saas need change ", self.tags_list_vue, selected_need, e.target.value );
-                },
 
                 // for the given need, construct tag html from tag ids
                 "get_tags_for_need": function (need) {
@@ -89,17 +122,29 @@ var APP = {
             el: "#tags-list-vue",
             
             data: {
+                selected_tags: "",
                 tags: _.cloneDeep( this.tagsInfo )
             },
 
             methods: {
-                "handleChange": function (e) {
+                // debouncing it for better handling of input change triggers
+                "handleChange": _.debounce ( function (e) {
                     var current_tags = _.map( e.target.value.split(","), function (id) {
                         // trim the id and return
                         return _.trim( id );
                     } );
-                    console.log("Porumai! tag changed ", current_tags, e, e.target.value, this.selected_tags);
-                }
+
+                    console.log("tag list dropdown handling change ", current_tags, self.source);
+
+                    if (self.source == "saas-need") {
+                        console.log("Porumai! trigger by SAAS NEED");
+                    } else {
+                        // make the source as tags list
+                        self.source = "tags-list";
+                    }
+
+                    self.update_saas_list( current_tags );
+                }, 1 )
             }
         });
 
@@ -127,6 +172,20 @@ var APP = {
         });
 
 
+    },
+
+    // updates saas list based on the tags
+    update_saas_list_from_tags: function (tags) {
+        console.log("Porumai! updating saas list based on tags - ", this.source, tags, this);
+
+        // if the trigger is by tags list change the text of saas need to default
+        if (this.source == "tags-list") {
+            $("#saas-need-dropdown").dropdown("restore defaults");
+            // $("#saas-need-dropdown").dropdown("restore default value");
+        }
+
+        // clear the source
+        this.source = "";
     }
 
 };

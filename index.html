@@ -36,8 +36,8 @@
         <div id="saas-need-vue" class="ui container center aligned row">
             <div class="sixteen wide column">
                 <h3>Select your need</h3>
-                <div class="ui fluid selection dropdown massive input text center">
-                    <input type="hidden" name="saas-need" v-on:change="handleChange">
+                <div id="saas-need-dropdown" class="ui fluid selection dropdown massive input text center">
+                    <!-- <input type="hidden" name="saas-need" v-on:change="handleChange"> -->
                     <i class="dropdown icon"></i>
                     <div class="default text">Select your need</div>
                     <div class="menu">
@@ -58,11 +58,13 @@
                 </div>
             </div>
         </div>
-        <h5>or</h5>
+
+        <h5>or [clear all] </h5>
+        
         <div id="tags-list-vue" class="ui container row">
             <div class="sixteen wide column">
-                <div class="ui fluid selection dropdown multiple">
-                    <input type="hidden" name="tags" v-on:change="handleChange">
+                <div id="tag-list-dropdown" class="ui fluid selection dropdown multiple">
+                    <input type="hidden" name="tags" v-on:change="handleChange" v-model="selected_tags">
                     <i class="dropdown icon"></i>
                     <div class="default text">Select Tags</div>
                     <div class="menu">
@@ -73,7 +75,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="ui divider"></div> -->
     </div>
     <div id="saas-list-vue" class="ui text center aligned container segment relaxed grid">
         <div class="ui container row grid">
@@ -99,45 +100,8 @@
                     	<div v-for="tag in get_tags_for_saas_list( saas )" class="ui label">
                             <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                         </div>
-                        <!-- <div class="ui label">
-                            <i class="mail icon"></i> Utility
-                        </div>
-                        <div class="ui label">
-                            <i class="music icon"></i> Music
-                        </div> -->
                     </div>
                 </a>
-                <!-- <a class="ui card" href="https://github.com/palerdot" target="_blank">
-                    <div class="content">
-                        <img class="left floated mini ui image" src="/icons/logo2.png">
-                        <div class="header">
-                            Jenny Hess
-                        </div>
-                        <div class="meta">
-                            New Member
-                        </div>
-                    </div>
-                    <div class="content">
-                        <div class="description left aligned">
-                            <ol class="ui list">
-                                <li value="*">Signing Up</li>
-                                <li value="*">User Benefits</li>
-                                <li value="*">User Types</li>
-                                <li value="*">Deleting Your Account</li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="extra content">
-                        <div class="ui label">
-                            <i class="mail icon"></i> Utility
-                        </div>
-                        <div class="ui label">
-                            <i class="music icon"></i> Music
-                        </div>
-                    </div>
-                </a> -->
-
-
             </div>
         </div>
     </div>
