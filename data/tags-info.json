@@ -8,5 +8,10 @@
         "id": 2,
         "name": "Music",
         "icon_class": "music icon" 
+    },
+    {
+        "id": 3,
+        "name": "Productivity",
+        "icon_class": "music icon" 
     }
 ]

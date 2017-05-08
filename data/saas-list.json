@@ -23,5 +23,18 @@
             "Customer Support"
         ],
         "tags": [1]
+    },
+
+    {
+        "id": 2,
+        "name": "Patience",
+        "url": "https://google.com",
+        "logo": "/icons/logo2.png",
+        "description": "patience",
+        "info": [
+            "Paid version only",
+            "Customer Support"
+        ],
+        "tags": [1, 2, 3]
     }
 ]

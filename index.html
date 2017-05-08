@@ -20,19 +20,15 @@
             </div>
         </div>
     </div>
-    <div class="ui text center aligned container segment relaxed grid">
-        <!-- <div class="ui horizontal statistic row">
-            <div class="label">
-                Showing
-            </div>
-            <div class="value">
-                2,204
-            </div>
-            <div class="label">
-                softwares
-            </div>
+
+    <div id="saas-count-vue" class="ui rail center aligned container">
+        <div id="saas-count" class="ui sticky">
+            Showing {{count}} softwares
         </div>
-        <div class="ui divider"></div> -->
+    </div>
+
+    <div class="ui text center aligned container segment relaxed grid">
+
         <div id="saas-need-vue" class="ui container center aligned row">
             <div class="sixteen wide column">
                 <h3>Select your need</h3>
@@ -48,7 +44,7 @@
                                 </div>
                                 <div class="ui divider"></div>
                                 <div class="section">
-                                	<div v-for="tag in get_tags_for_need( need )" class="ui label">
+                                    <div v-for="tag in get_tags_for_need( need )" class="ui label">
                                         <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                                     </div>
                                 </div>
@@ -76,7 +72,11 @@
             </div>
         </div>
     </div>
+
+
+
     <div id="saas-list-vue" class="ui text center aligned container segment relaxed grid">
+
         <div class="ui container row grid">
             <div class="ui stackable cards">
                 <a class="ui card" v-for="saas in saas_list" href="{{url}}" target="_blank">
@@ -92,12 +92,12 @@
                     <div class="content">
                         <div class="description left aligned">
                             <ol class="ui list">
-                            	<li value="*" v-for="i in saas.info">{{i}}</li>
+                                <li value="*" v-for="i in saas.info">{{i}}</li>
                             </ol>
                         </div>
                     </div>
                     <div class="extra content">
-                    	<div v-for="tag in get_tags_for_saas_list( saas )" class="ui label">
+                        <div v-for="tag in get_tags_for_saas_list( saas )" class="ui label">
                             <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                         </div>
                     </div>
@@ -105,6 +105,7 @@
             </div>
         </div>
     </div>
+
     <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="/js/lodash.min.js"></script>
     <script type="text/javascript" src="js/vue.min.js"></script>

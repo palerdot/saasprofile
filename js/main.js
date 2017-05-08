@@ -85,12 +85,31 @@ var APP = {
                 // console.log("PORUMAI !! tag list dropdown change ");
             }
         });
+
+        // init sticky rails
+        $("#saas-count")
+            .sticky({
+                context: "#saas-list-vue",
+                offset: 50,
+                bottomOffset: 50
+            });
     },
 
     // init vue components
     init_vues: function() {
 
         var self = this; // save reference
+
+        // saas count vue
+        this.saas_count_vue = new Vue({
+
+            el: "#saas-count-vue",
+
+            data: {
+                count: _.size( this.saasInfo )
+            }
+
+        });
 
         // saas need vue
         this.saas_need_vue = new Vue({
@@ -176,16 +195,48 @@ var APP = {
 
     // updates saas list based on the tags
     update_saas_list_from_tags: function (tags) {
-        console.log("Porumai! updating saas list based on tags - ", this.source, tags, this);
+
+        var filtered_saas_list = [];
+
+        var filtered_tags = _.map( _.compact(tags), function (t) {
+            return parseInt( t, 10 );
+        } );
 
         // if the trigger is by tags list change the text of saas need to default
         if (this.source == "tags-list") {
             $("#saas-need-dropdown").dropdown("restore defaults");
-            // $("#saas-need-dropdown").dropdown("restore default value");
         }
 
         // clear the source
         this.source = "";
+        
+        if ( _.isEmpty( filtered_tags ) ) {
+            // if tags is empty we need to show the whole saas list
+            filtered_saas_list = _.cloneDeep( this.saasInfo );
+        } else {
+            filtered_saas_list = _( this.saasInfo )
+                                    // start chaining
+                                    .chain()
+                                    // filter saas which has atleast one matching tag
+                                    .filter( function (saas) {
+                                        return _.size( _.intersection( filtered_tags, saas.tags ) ) > 0;
+                                    } )
+                                    // sort by saas which has most matching tags
+                                    .sortBy( function (saas) {
+                                        // sort by matching tags and order in descending order
+                                        return -( _.size( _.intersection( filtered_tags, saas.tags ) ) );                            
+                                    } )
+                                    // get the value
+                                    .value();
+        }
+
+        console.log("Porumai! updating saas list based on tags - ", this.source, tags, filtered_saas_list);
+
+        // set the data for saas vue
+        this.saas_list_vue.saas_list = filtered_saas_list;
+
+        // update the saas count
+        this.saas_count_vue.count = _.size( filtered_saas_list );
     }
 
 };
