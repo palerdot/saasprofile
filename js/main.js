@@ -89,9 +89,7 @@ var APP = {
         // init sticky rails
         $("#saas-count")
             .sticky({
-                context: "#saas-list-vue",
-                offset: 50,
-                bottomOffset: 50
+                context: "#saas-grid"
             });
     },
 
@@ -99,17 +97,6 @@ var APP = {
     init_vues: function() {
 
         var self = this; // save reference
-
-        // saas count vue
-        this.saas_count_vue = new Vue({
-
-            el: "#saas-count-vue",
-
-            data: {
-                count: _.size( this.saasInfo )
-            }
-
-        });
 
         // saas need vue
         this.saas_need_vue = new Vue({
@@ -176,6 +163,12 @@ var APP = {
                 saas_list: _.cloneDeep( this.saasInfo )
             },
 
+            computed: {
+                count: function () {
+                    return _.size( this.saas_list );
+                }
+            },
+
             methods: {
                 // for the given saas, construct tag html from tag ids
                 "get_tags_for_saas_list": function (saas) {
@@ -185,6 +178,10 @@ var APP = {
                     } );
 
                     return tags;
+                },
+
+                "count_msg": function () {
+                    return "Showing " + this.count + " " + (this.count > 1 ? "softwares" : "software");
                 }
             }
 
@@ -234,9 +231,6 @@ var APP = {
 
         // set the data for saas vue
         this.saas_list_vue.saas_list = filtered_saas_list;
-
-        // update the saas count
-        this.saas_count_vue.count = _.size( filtered_saas_list );
     }
 
 };

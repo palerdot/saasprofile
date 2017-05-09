@@ -21,11 +21,11 @@
         </div>
     </div>
 
-    <div id="saas-count-vue" class="ui rail center aligned container">
+    <!-- <div id="saas-count-vue" class="ui rail center aligned container">
         <div id="saas-count" class="ui sticky">
             Showing {{count}} softwares
         </div>
-    </div>
+    </div> -->
 
     <div class="ui text center aligned container segment relaxed grid">
 
@@ -71,15 +71,21 @@
                 </div>
             </div>
         </div>
+
     </div>
 
+    <div id="saas-list-vue" class="ui text center aligned container relaxed grid">
 
+        <div id="saas-grid" class="ui container row grid segment">
 
-    <div id="saas-list-vue" class="ui text center aligned container segment relaxed grid">
+            <div id="" class="left ui rail aligned container">
+                <div id="saas-count" class="ui sticky segment">
+                    <i class="info circle icon"></i> {{ count_msg() }}
+                </div>
+            </div>        
 
-        <div class="ui container row grid">
             <div class="ui stackable cards">
-                <a class="ui card" v-for="saas in saas_list" href="{{url}}" target="_blank">
+                <a class="ui centered card" v-for="saas in saas_list" href="{{url}}" target="_blank">
                     <div class="content">
                         <img class="left floated mini ui image" v-bind:src="saas.logo">
                         <div class="header">
