@@ -102,8 +102,8 @@
                             </ol>
                         </div>
                     </div>
-                    <div class="extra content">
-                        <div v-for="tag in get_tags_for_saas_list( saas )" class="ui label">
+                    <div class="extra content ui labels">
+                        <div v-for="tag in get_tags_for_saas_list( saas )" class="ui red label">
                             <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                         </div>
                     </div>
