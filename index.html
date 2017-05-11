@@ -31,7 +31,6 @@
 
         <div id="saas-need-vue" class="ui container center aligned row">
             <div class="sixteen wide column">
-                <h3>Select your need</h3>
                 <div id="saas-need-dropdown" class="ui fluid selection dropdown massive input text center">
                     <!-- <input type="hidden" name="saas-need" v-on:change="handleChange"> -->
                     <i class="dropdown icon"></i>
@@ -44,7 +43,7 @@
                                 </div>
                                 <div class="ui divider"></div>
                                 <div class="section">
-                                    <div v-for="tag in get_tags_for_need( need )" class="ui label">
+                                    <div v-for="tag in get_tags_for_need( need )" class="ui red label">
                                         <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                                     </div>
                                 </div>
@@ -55,7 +54,20 @@
             </div>
         </div>
 
-        <h5>or [clear all] </h5>
+        <div class="ui container relaxed grid">
+
+            <div class="row">
+                <div class="four wide column"></div>
+                <div class="eight wide column">or</div>
+                <div class="four wide column right aligned">
+                    <button id="clear-filters" class="mini ui basic button">
+                        <i class="icon remove"></i>
+                        clear filters 
+                    </button>
+                </div>
+            </div>
+
+        </div>
         
         <div id="tags-list-vue" class="ui container row">
             <div class="sixteen wide column">

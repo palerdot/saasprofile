@@ -49,6 +49,13 @@ var APP = {
 
     init_DOM_events: function() {
         var self = this; // save reference
+
+        // clear all filters
+        $("#clear-filters").click( function () {
+            console.log("porumai! clearing all filters ");
+            $("#tag-list-dropdown").dropdown("set exactly", "");
+        } );
+
         // initialize dropdown for saas need
         $("#saas-need-dropdown").dropdown({
             onChange: _.debounce ( function () {
