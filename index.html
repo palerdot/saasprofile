@@ -42,7 +42,7 @@
                                     {{ need.text }}
                                 </div>
                                 <div class="ui divider"></div>
-                                <div class="section">
+                                <div class="section ui labels">
                                     <div v-for="tag in get_tags_for_need( need )" class="ui red label">
                                         <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                                     </div>
@@ -54,19 +54,8 @@
             </div>
         </div>
 
-        <div class="ui container relaxed grid">
-
-            <div class="row">
-                <div class="four wide column"></div>
-                <div class="eight wide column">or</div>
-                <div class="four wide column right aligned">
-                    <button id="clear-filters" class="mini ui basic button">
-                        <i class="icon remove"></i>
-                        clear filters 
-                    </button>
-                </div>
-            </div>
-
+        <div class="ui container relaxed grid row">
+            <div class="sixteen wide column center aligned">or</div>
         </div>
         
         <div id="tags-list-vue" class="ui container row">
@@ -81,6 +70,25 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="ui divider"></div>
+
+        <div class="ui container row">
+            <div class="eight wide column left aligned">
+                <button class="mini ui basic disabled button">
+                    <i class="world icon"></i>
+                    Select by geography
+                    <br />
+                    (coming soon)
+                </button>
+            </div>
+            <div class="eight wide column right aligned">
+                <button id="clear-filters" class="mini ui basic button">
+                    <i class="icon remove"></i>
+                    clear filters 
+                </button>
             </div>
         </div>
 
