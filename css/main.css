@@ -21,6 +21,10 @@ nav a {
     background: #FAFAFA !important;
 }
 
+.light-text {
+    color: #AAA !important;
+}
+
 #saas-grid .meta {
     color: #586069 !important;
     /*color: blue !important;*/
