@@ -8,8 +8,8 @@
     <link type="text/css" rel="stylesheet" href="/css/main.css" media="screen,projection" />
 </head>
 
-<body>
-    <div class="ui borderless main menu">
+<body class="">
+    <div class="ui borderless main menu light-bg">
         <div class="ui text container">
             <div href="#" class="header item">
                 <img class="logo" src="assets/images/logo.png"> SaaS Profile
@@ -37,13 +37,13 @@
                     <div class="default text">Select your need</div>
                     <div class="menu">
                         <div class="item" v-for="need in saasNeed" v-bind:data-value="need.id">
-                            <div class="ui segment">
+                            <div class="ui segment light-bg">
                                 <div class="section">
                                     {{ need.text }}
                                 </div>
                                 <div class="ui divider"></div>
                                 <div class="section ui labels">
-                                    <div v-for="tag in get_tags_for_need( need )" class="ui red label">
+                                    <div v-for="tag in get_tags_for_need( need )" class="ui sp-red label">
                                         <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                                     </div>
                                 </div>
@@ -99,14 +99,14 @@
         <div id="saas-grid" class="ui container row grid segment">
 
             <div id="" class="left ui rail aligned container">
-                <div id="saas-count" class="ui sticky segment">
+                <div id="saas-count" class="ui sticky segment light-bg">
                     <i class="info circle icon"></i> {{ count_msg() }}
                 </div>
             </div>        
 
             <div class="ui stackable cards">
                 <a class="ui centered card" v-for="saas in saas_list" href="{{url}}" target="_blank">
-                    <div class="content">
+                    <div class="content light-bg">
                         <img class="left floated mini ui image" v-bind:src="saas.logo">
                         <div class="header">
                             {{saas.name}}
@@ -122,8 +122,8 @@
                             </ol>
                         </div>
                     </div>
-                    <div class="extra content ui labels">
-                        <div v-for="tag in get_tags_for_saas_list( saas )" class="ui red label">
+                    <div class="extra content ui labels light-bg">
+                        <div v-for="tag in get_tags_for_saas_list( saas )" class="ui sp-red label">
                             <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
                         </div>
                     </div>
