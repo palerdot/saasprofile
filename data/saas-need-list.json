@@ -2,7 +2,8 @@
     {
         "id": 0,
         "text": "All Softwares",
-        "tags": []
+        "tags": [],
+        "weight": 11111
     },
     {
         "id": 1,
@@ -17,6 +18,7 @@
     {
         "id": 3,
         "text": "Hacking tools",
-        "tags": [1, 2, 3]
+        "tags": [1, 2, 3],
+        "weight": 5
     }
 ]

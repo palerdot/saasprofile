@@ -26,9 +26,9 @@ var APP = {
 
         $.when($fetchTagsData, $fetchNeedData, $fetchSassData)
             .done(function(tData, nData, sData) {
-                self.tagsInfo = tData[0];
-                self.needInfo = nData[0];
-                self.saasInfo = sData[0];
+                self.tagsInfo = _.sortBy( tData[0], function (tags) { return -tags.weight; } );
+                self.needInfo = _.sortBy( nData[0], function (n) { return -n.weight; } );
+                self.saasInfo = _.sortBy( sData[0], function (saas) { return -saas.weight; } );
                 // proceed with app initialization
                 self.start();
             });

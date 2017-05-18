@@ -9,7 +9,8 @@
             "Open Source",
             "Freemium"
         ],
-        "tags": [1, 2]
+        "tags": [1, 2],
+        "interesting": true
     },
 
     {
@@ -22,7 +23,8 @@
             "Paid version only",
             "Customer Support"
         ],
-        "tags": [1]
+        "tags": [1],
+        "weight": 5
     },
 
     {
