@@ -1,0 +1,24 @@
+{
+  "name": "saasprofile",
+  "version": "0.1.0",
+  "description": "Listing of useful/interesting software tools",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palerdot/saasprofile.git"
+  },
+  "author": "palerdot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palerdot/saasprofile/issues"
+  },
+  "homepage": "https://github.com/palerdot/saasprofile#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
