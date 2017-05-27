@@ -100,6 +100,18 @@ var APP = {
             });
     },
 
+    // helper function for constructing the tag icons
+    get_tag_icons: function (tag) {
+        var DEFAULT_ICON_SUFFIX = "icon"; 
+            DEFAULT_ICON_CLASS = "tag";
+        // if there is no icon class, return the default icon class
+        if ( !tag.icon_class ) {
+            return DEFAULT_ICON_CLASS + " " + DEFAULT_ICON_SUFFIX;
+        }
+        // else we have a icon class; let us return with the suffix
+        return tag.icon_class + " " + DEFAULT_ICON_SUFFIX;
+    },
+
     // init vue components
     init_vues: function() {
 
@@ -124,7 +136,10 @@ var APP = {
                     } );
 
                     return need_tags;
-                }
+                },
+
+                "get_tag_icons": self.get_tag_icons
+
             }
 
         });
@@ -157,7 +172,9 @@ var APP = {
                     }
 
                     self.update_saas_list( current_tags );
-                }, 1 )
+                }, 1 ),
+
+                "get_tag_icons": self.get_tag_icons
             }
         });
 
@@ -189,7 +206,9 @@ var APP = {
 
                 "count_msg": function () {
                     return "Showing " + this.count + " " + (this.count > 1 ? "softwares" : "software");
-                }
+                },
+
+                "get_tag_icons": self.get_tag_icons
             }
 
         });

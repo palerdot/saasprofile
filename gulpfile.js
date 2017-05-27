@@ -34,12 +34,12 @@ gulp.task("js:watch", function () {
 gulp.task("json", function () {
     return gulp.src("./data-src/**/*.json")
                 .pipe( $.jsonminify() )
-                .pipe( gulp.dest("./data") )
+                .pipe( gulp.dest("./data") );
 });
 
 // watch json files change
 gulp.task("json:watch", function () {
-    gulp.watch("./data-src/**/*.json", ["json"])
+    gulp.watch("./data-src/**/*.json", ["json"]);
 });
 
 // convert scss to css

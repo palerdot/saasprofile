@@ -48,7 +48,7 @@
                                 <div class="ui divider"></div>
                                 <div class="section ui labels">
                                     <div v-for="tag in get_tags_for_need( need )" class="ui sp-red label">
-                                        <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
+                                        <i v-bind:class="get_tag_icons( tag )"></i> {{ tag.name }}
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                     <div class="default text">Select Tags</div>
                     <div class="menu">
                         <div class="item" v-for="tag in tags" v-bind:data-value="tag.id" v-bind:data-text="tag.name">
-                            <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
+                            <i v-bind:class="get_tag_icons( tag )"></i> {{ tag.name }}
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="extra content ui labels light-bg">
                         <div v-for="tag in get_tags_for_saas_list( saas )" class="ui sp-red label">
-                            <i v-bind:class="tag.icon_class"></i> {{ tag.name }}
+                            <i v-bind:class="get_tag_icons( tag )"></i> {{ tag.name }}
                         </div>
                     </div>
                 </a>
