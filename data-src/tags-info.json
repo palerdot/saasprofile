@@ -168,5 +168,21 @@
         "id": 34,
         "name": "Maps",
         "icon_class": "world" 
+    },
+    {
+        "id": 35,
+        "name": "command-line / terminal",
+        "icon_class": "terminal" 
+    },
+    {
+        "id": 36,
+        "name": "Technology",
+        "icon_class": "level up" 
+    },
+    {
+        "id": 37,
+        "name": "Computer Programming",
+        "icon_class": "laptop" 
     }
+
 ]
