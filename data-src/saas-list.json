@@ -7,8 +7,8 @@
         "logo": "nomad-list.jpg",
         "description": "Social Network for nomads",
         "info": [
-            "Free",
-            "Web based app"
+            "Free / Freemium",
+            "Web based software"
         ],
         "tags": [33, 30],
         "weight": 5
@@ -38,7 +38,7 @@
         "description": "Find Remote Jobs all over the world",
         "info": [
             "Free",
-            "Web based app"
+            "Web based software"
         ],
         "tags": [2],
         "weight": 5
