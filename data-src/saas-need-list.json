@@ -8,11 +8,11 @@
     {
         "id": 1,
         "text": "Convert Ebooks",
-        "tags": [2]
+        "tags": [1, 6, 35]
     },
     {
         "id": 2,
         "text": "Find remote Programming jobs all over the world",
-        "tags": [3]
+        "tags": [33, 2]
     }
 ]
