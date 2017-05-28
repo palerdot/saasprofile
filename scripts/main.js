@@ -208,6 +208,13 @@ var APP = {
                     return "Showing " + this.count + " " + (this.count > 1 ? "softwares" : "software");
                 },
 
+                // for the given saas, construct the logo url
+                get_saas_logo: function (saas) {
+                    var LOGO_PATH = "/logos/";
+
+                    return LOGO_PATH + saas.logo;
+                },
+
                 "get_tag_icons": self.get_tag_icons
             }
 

@@ -1,42 +1,46 @@
 [
-    {
-        "id": 0,
-        "name": "Porumai",
-        "url": "https://github.com/palerdot",
-        "logo": "/icons/logo1.png",
-        "description": "Amaidhi patience porumai",
-        "info": [
-            "Open Source",
-            "Freemium"
-        ],
-        "tags": [1, 2],
-        "interesting": true
-    },
 
     {
         "id": 1,
-        "name": "Amaidhi",
-        "url": "https://google.com",
-        "logo": "/icons/logo2.png",
-        "description": "patience porumai amaidhi",
+        "name": "Nomad List",
+        "url": "https://nomadlist.com/",
+        "logo": "nomad-list.jpg",
+        "description": "Social Network for nomads",
         "info": [
-            "Paid version only",
-            "Customer Support"
+            "Free",
+            "Web based app"
         ],
-        "tags": [1],
+        "tags": [33, 30],
         "weight": 5
     },
 
     {
         "id": 2,
-        "name": "Patience",
-        "url": "https://google.com",
-        "logo": "/icons/logo2.png",
-        "description": "patience",
+        "name": "Calibre",
+        "url": "https://calibre-ebook.com/",
+        "logo": "calibre-logo.jpg",
+        "description": "Ebook management software",
         "info": [
-            "Paid version only",
-            "Customer Support"
+            "Free",
+            "Open Source",
+            "Available for Windows, Linux & Mac",
+            "Converts all kinds of ebooks"
         ],
-        "tags": [1, 2, 3]
+        "tags": [1, 5, 6],
+        "weight": 5
+    },
+
+    {
+        "id": 3,
+        "name": "remote OK",
+        "url": "https://remoteok.io",
+        "logo": "remote-ok.png",
+        "description": "Find Remote Jobs all over the world",
+        "info": [
+            "Free",
+            "Web based app"
+        ],
+        "tags": [2],
+        "weight": 5
     }
 ]

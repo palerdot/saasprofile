@@ -11,7 +11,7 @@ var $ = gulpLoadPlugins();
 var IS_PRODUCTION = false;
 
 // overall watch task
-gulp.task("watch", ["dev", "js:watch", "scss:watch", "json:watch"]);
+gulp.task("watch", ["dev", "js", "json", "scss", "js:watch", "scss:watch", "json:watch"]);
 
 // minify js files from "scripts" to "js"
 gulp.task("js", function () {
