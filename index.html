@@ -109,7 +109,7 @@
             </div>        
 
             <div class="ui stackable cards row">
-                <a class="ui centered card" v-for="saas in saas_list" href="{{url}}" target="_blank">
+                <a class="ui centered card" v-for="saas in saas_list" v-bind:href="saas.url" target="_blank">
                     <div class="content light-bg">
                         <img class="left floated mini ui image" v-bind:src="get_saas_logo(saas)">
                         <div class="header">
