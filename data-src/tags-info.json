@@ -188,6 +188,85 @@
         "id": 38,
         "name": "Conversion",
         "icon_class": "" 
+    },
+    {
+        "id": 39,
+        "name": "E-Mail",
+        "icon_class": "mail" 
+    },
+    {
+        "id": 40,
+        "name": "Browser",
+        "icon_class": "" 
+    },
+    {
+        "id": 41,
+        "name": "Testing",
+        "icon_class": "" 
+    },
+    {
+        "id": 42,
+        "name": "Mobile",
+        "icon_class": "" 
+    },
+    {
+        "id": 43,
+        "name": "Automation",
+        "icon_class": "" 
+    },
+    {
+        "id": 44,
+        "name": "CRM",
+        "icon_class": "" 
+    },
+    {
+        "id": 45,
+        "name": "Delivery",
+        "icon_class": "" 
+    },
+    {
+        "id": 46,
+        "name": "Catering",
+        "icon_class": "" 
+    },
+    {
+        "id": 47,
+        "name": "On-Demand",
+        "icon_class": "" 
+    },
+    {
+        "id": 48,
+        "name": "Monitoring",
+        "icon_class": "" 
+    },
+    {
+        "id": 49,
+        "name": "Server",
+        "icon_class": "" 
+    },
+    {
+        "id": 50,
+        "name": "Usage Tracking",
+        "icon_class": "" 
+    },
+    {
+        "id": 51,
+        "name": "Wordpress",
+        "icon_class": "" 
+    },
+    {
+        "id": 52,
+        "name": "Web",
+        "icon_class": "" 
+    },
+    {
+        "id": 53,
+        "name": "Builder",
+        "icon_class": "" 
+    },
+    {
+        "id": 54,
+        "name": "Survey",
+        "icon_class": "" 
     }
-
 ]

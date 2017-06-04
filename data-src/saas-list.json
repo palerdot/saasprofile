@@ -42,5 +42,97 @@
         ],
         "tags": [2, 33],
         "weight": 5
+    },
+    {
+        "id": 4,
+        "name": "Taskforce",
+        "url": "https://www.taskforceapp.com/",
+        "logo": "taskforce.png",
+        "description": "Productivity tool for gmail",
+        "info": [
+            "Browser Extension, Web based app",
+            "Free Trial, Freemium"
+        ],
+        "tags": [3, 10, 39],
+        "weight": 5
+    },
+    {
+        "id": 5,
+        "name": "Testing Bot",
+        "url": "https://testingbot.com/",
+        "logo": "testing-bot.png",
+        "description": "Browser and Device Testing",
+        "info": [
+            "Web based app",
+            "Monthly subscription",
+            "Usage based pricing"
+        ],
+        "tags": [32, 40, 41, 42, 1, 43, 16],
+        "weight": 5
+    },
+    {
+        "id": 6,
+        "name": "Trackin",
+        "url": "http://gotrackin.com/",
+        "logo": "trackin.png",
+        "description": "Food Delivery Software",
+        "info": [
+            "Web based Software",
+            "Usage based pricing"
+        ],
+        "tags": [21, 42, 44, 45, 16],
+        "weight": 5
+    },
+    {
+        "id": 7,
+        "name": "MobyDish",
+        "description": "On Demand Catering Software service",
+        "logo": "mobydish.png",
+        "url": "https://mobydish.com",
+        "info": [
+            "Available for San Fransicso (US), Silicon Valley (US), New York (US) locations only",
+            "Available for Web, Android and IOS platforms"
+        ],
+        "tags": [21, 46, 47, 16],
+        "weight": 5
+    },
+    {
+        "id": 8,
+        "name": "Apex Ping",
+        "description": "Uptime Monitoring Software",
+        "logo": "apex-ping.png",
+        "url": "https://apex.sh/ping",
+        "info": [
+            "Web based software",
+            "Monthly subscription"
+        ],
+        "tags": [48, 49, 50],
+        "weight": 5
+    },
+    {
+        "id": 9,
+        "name": "Form Craft",
+        "description": "Form builder and Survey Tool",
+        "logo": "form-craft.png",
+        "url": "http://formcrafts.com/",
+        "info": [
+            "Freemium based web software",
+            "Paid wordpress plugin"
+        ],
+        "tags": [32, 51, 52, 53, 54],
+        "weight": 5
+    },
+    {
+        "id": 10,
+        "name": "Commando IO",
+        "description": "Online Server management",
+        "logo": "commando-io.png",
+        "url": "https://commando.io",
+        "info": [
+            "Web based software",
+            "Monthly subscription"
+        ],
+        "tags": [49, 16, 43],
+        "weight": 5
     }
 ]
