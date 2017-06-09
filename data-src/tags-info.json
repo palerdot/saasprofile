@@ -268,5 +268,55 @@
         "id": 54,
         "name": "Survey",
         "icon_class": "" 
+    },
+    {
+        "id": 55,
+        "name": "Human Resource",
+        "icon_class": "" 
+    },
+    {
+        "id": 56,
+        "name": "Management",
+        "icon_class": "" 
+    },
+    {
+        "id": 57,
+        "name": "Tracking",
+        "icon_class": "" 
+    },
+    {
+        "id": 58,
+        "name": "Painting",
+        "icon_class": "" 
+    },
+    {
+        "id": 59,
+        "name": "SEO",
+        "icon_class": "" 
+    },
+    {
+        "id": 60,
+        "name": "Analytics",
+        "icon_class": "" 
+    },
+    {
+        "id": 61,
+        "name": "Goal-Tracking",
+        "icon_class": "" 
+    },
+    {
+        "id": 62,
+        "name": "Remix",
+        "icon_class": "" 
+    },
+    {
+        "id": 63,
+        "name": "API",
+        "icon_class": "" 
+    },
+    {
+        "id": 64,
+        "name": "Processing",
+        "icon_class": "" 
     }
 ]

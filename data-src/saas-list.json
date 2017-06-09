@@ -132,7 +132,98 @@
             "Web based software",
             "Monthly subscription"
         ],
-        "tags": [49, 16, 43],
+        "tags": [49, 16, 43, 56],
+        "weight": 5
+    },
+    {
+        "id": 11,
+        "name": "HR partner",
+        "description": "Human Resource management software",
+        "logo": "hr-partner.png",
+        "url": "https://www.hrpartner.io/",
+        "info": [
+            "Web based software",
+            "Free, Freemium"
+        ],
+        "tags": [55, 56, 16, 57],
+        "weight": 5
+    },
+    {
+        "id": 12,
+        "name": "InstaPainting",
+        "description": "Photo-to-painting service",
+        "logo": "instapainting.png",
+        "url": "https://www.instapainting.com/",
+        "info": [
+            "Service to make a real painting from uploaded image",
+            "Web based software",
+            "Painting delivered via postal mail"
+        ],
+        "tags": [28, 16, 58],
+        "weight": 5
+    },
+    {
+        "id": 13,
+        "name": "RankScience",
+        "description": "SEO improvisation software",
+        "logo": "rankscience.jpg",
+        "url": "https://rankscience.com",
+        "info": [
+            "Web based software"
+        ],
+        "tags": [59, 16, 57, 60],
+        "weight": 5
+    },
+    {
+        "id": 14,
+        "name": "Complice",
+        "description": "Daily planning app",
+        "logo": "complice.png",
+        "url": "https://complice.co/",
+        "info": [
+            "Web based app",
+            "Goal tracking app"
+        ],
+        "tags": [57, 3, 61],
+        "weight": 5
+    },
+    {
+        "id": 15,
+        "name": "Beeminder",
+        "description": "Goal tracking app",
+        "logo": "beeminder.png",
+        "url": "http://beeminder.com",
+        "info": [
+            "Web based app",
+            "Available for Android, IOS",
+            "Free/Freemium"
+        ],
+        "tags": [57, 3, 61],
+        "weight": 5
+    },
+    {
+        "id": 16,
+        "name": "The Wub Machine",
+        "description": "Music Remixing app",
+        "logo": "the-wub-machine.png",
+        "url": "https://the.wubmachine.com/",
+        "info": [
+            "Available for web & mobile"
+        ],
+        "tags": [27, 62, 4],
+        "weight": 5
+    },
+    {
+        "id": 17,
+        "name": "EchoNest",
+        "description": "API for processing music",
+        "logo": "echonest.png",
+        "url": "http://the.echonest.com",
+        "info": [
+            "Provides API/endpoints for processing music programmatically",
+            "Audio fingerprinting service"
+        ],
+        "tags": [27, 63, 64],
         "weight": 5
     }
 ]
