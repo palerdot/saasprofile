@@ -318,5 +318,80 @@
         "id": 64,
         "name": "Processing",
         "icon_class": "" 
+    },
+    {
+        "id": 65,
+        "name": "SQL",
+        "icon_class": "" 
+    },
+    {
+        "id": 66,
+        "name": "Plugin",
+        "icon_class": "" 
+    },
+    {
+        "id": 67,
+        "name": "Database",
+        "icon_class": "" 
+    },
+    {
+        "id": 68,
+        "name": "Drag-and-Drop",
+        "icon_class": "" 
+    },
+    {
+        "id": 69,
+        "name": "HTML",
+        "icon_class": "" 
+    },
+    {
+        "id": 70,
+        "name": "Builder",
+        "icon_class": "" 
+    },
+    {
+        "id": 71,
+        "name": "Shopify",
+        "icon_class": "" 
+    },
+    {
+        "id": 72,
+        "name": "Self Hosted",
+        "icon_class": "" 
+    },
+    {
+        "id": 73,
+        "name": "Reminder",
+        "icon_class": "" 
+    },
+    {
+        "id": 74,
+        "name": "Scheduler",
+        "icon_class": "" 
+    },
+    {
+        "id": 75,
+        "name": "SMS",
+        "icon_class": "" 
+    },
+    {
+        "id": 76,
+        "name": "Android",
+        "icon_class": "android" 
+    },
+    {
+        "id": 77,
+        "name": "IOS / Mac",
+        "icon_class": "apple" 
+    },
+    {
+        "id": 78,
+        "name": "Streaming",
+        "icon_class": "" 
+    },
+    {
+        "id": 79,
+        "name": "Sharing",
+        "icon_class": "" 
     }
 ]

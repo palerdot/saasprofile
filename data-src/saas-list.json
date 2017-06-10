@@ -225,5 +225,97 @@
         ],
         "tags": [27, 63, 64],
         "weight": 5
+    },
+    {
+        "id": 18,
+        "name": "SqlSmash",
+        "description": "Productivity plugin for SQL Server",
+        "logo": "sql-smash.png",
+        "url": "http://www.sqlsmash.com/",
+        "info": [
+            "Plugin integrating with SQL Server Management Studio",
+            "Free/Freemium plugin"
+        ],
+        "tags": [65, 3, 66, 67],
+        "weight": 5
+    },
+    {
+        "id": 19,
+        "name": "Shogun",
+        "description": "Drag-and-Drop Page Builder",
+        "logo": "shogun.png",
+        "url": "https://getshogun.com/",
+        "info": [
+            "Page Builder/ Website builder",
+            "Works with shopify",
+            "Flexible pricing plans"
+        ],
+        "tags": [68, 69, 70, 71, 16],
+        "weight": 5
+    },
+    {
+        "id": 20,
+        "name": "Amon",
+        "description": "Server/App Monitoring Tool",
+        "logo": "amon.png",
+        "url": "https://www.amon.cx/",
+        "info": [
+            "Self Hosted tool for server monitoring",
+            "Free/Freemium"
+        ],
+        "tags": [48, 49, 50, 72],
+        "weight": 5
+    },
+    {
+        "id": 21,
+        "name": "RSVP Pro",
+        "description": "Wordpress Management Plugin",
+        "logo": "rsvp-pro.png",
+        "url": "https://www.rsvpproplugin.com/",
+        "info": [
+            "Freemium wordpress plugin",
+            "Plugin for managing events"
+        ],
+        "tags": [51, 66, 56],
+        "weight": 5
+    },
+    {
+        "id": 22,
+        "name": "Appointment Reminder",
+        "description": "Appointment Reminder and Scheduler",
+        "logo": "appointment-reminder.png",
+        "url": "https://www.appointmentreminder.org/",
+        "info": [
+            "Web based app",
+            "Usage based pricing models"
+        ],
+        "tags": [73, 74, 75],
+        "weight": 5
+    },
+    {
+        "id": 23,
+        "name": "Audio & Video Convertor for Android",
+        "description": "Audio & Video conversion software for android",
+        "logo": "audio-video-converter-android.png",
+        "url": "https://play.google.com/store/apps/details?id=roman10.media.converterv2",
+        "info": [
+            "Android platform only",
+            "Free/In-app purchases"
+        ],
+        "tags": [4, 29, 76, 38],
+        "weight": 5
+    },
+    {
+        "id": 24,
+        "name": "SMG Music Display",
+        "description": "Music Sharing for Streams",
+        "logo": "smg-music-display.png",
+        "url": "https://martijnbrekelmans.com/SMG/index.php",
+        "info": [
+            "Plugin software for live streaming the current playing audio"
+        ],
+        "tags": [27, 78, 79, 66],
+        "weight": 5
     }
+
 ]
