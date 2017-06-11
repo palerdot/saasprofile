@@ -154,6 +154,12 @@ var APP = {
                 tags: _.cloneDeep( this.tagsInfo )
             },
 
+            computed: {
+                count: function () {
+                    return _.isEmpty(this.selected_tags) ? _.size( this.tags ) : _.size( this.selected_tags );
+                }
+            },
+
             methods: {
                 // debouncing it for better handling of input change triggers
                 "handleChange": _.debounce ( function (e) {
@@ -174,7 +180,12 @@ var APP = {
                     self.update_saas_list( current_tags );
                 }, 1 ),
 
-                "get_tag_icons": self.get_tag_icons
+                "get_tag_icons": self.get_tag_icons,
+
+                // displays the current active tag count
+                "count_msg": function () {
+                    return "Showing " + this.count + " " + (this.count > 1 ? "tags" : "tag");
+                }
             }
         });
 
@@ -231,6 +242,9 @@ var APP = {
         var filtered_tags = _.map( _.compact(tags), function (t) {
             return parseInt( t, 10 );
         } );
+
+        // set the filtered tags as selected tags
+        this.tags_list_vue.selected_tags = filtered_tags;
 
         // if the trigger is by tags list change the text of saas need to default
         if (this.source == "tags-list") {

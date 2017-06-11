@@ -56,7 +56,14 @@
             <div class="sixteen wide column center aligned light-text">or</div>
         </div>
         
-        <div id="tags-list-vue" class="ui container row">
+        <div id="tags-list-vue" class="ui container center aligned row">
+
+            <div id="" class="left ui rail aligned container">
+                <div id="" class="ui sticky segment light-bg">
+                    <i class="info circle icon"></i> {{ count_msg() }}
+                </div>
+            </div>
+
             <div class="sixteen wide column">
                 <div id="tag-list-dropdown" class="ui fluid selection dropdown multiple">
                     <input type="hidden" name="tags" v-on:change="handleChange" v-model="selected_tags">
