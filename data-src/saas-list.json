@@ -316,6 +316,91 @@
         ],
         "tags": [27, 78, 79, 66],
         "weight": 5
+    },
+    {
+        "id": 25,
+        "name": "SmartEdit for Word",
+        "description": "Editing Software for writers",
+        "logo": "smart-edit.png",
+        "url": "http://www.smart-edit.com/",
+        "info": [
+            "MS Word plugin and Standalone app"
+        ],
+        "tags": [80, 82, 83],
+        "weight": 5
+    },
+    {
+        "id": 26,
+        "name": "Later for Reddit",
+        "description": "Reddit post scheduler",
+        "logo": "later-for-reddit.png",
+        "url": "https://redditlater.com/",
+        "info": [
+            "Web based software",
+            "Free/Freemium"
+        ],
+        "tags": [74, 84, 60],
+        "weight": 5
+    },
+    {
+        "id": 27,
+        "name": "ConferenceBadge.com",
+        "description": "Name Badges as service",
+        "logo": "conference-badge.png",
+        "url": "http://conferencebadge.com/",
+        "info": [
+            "Software for printing name badges"
+        ],
+        "tags": [85, 86, 87],
+        "weight": 5
+    },
+    {
+        "id": 28,
+        "name": "Easy Stats for Basketball",
+        "description": "Basketball statistic tracking",
+        "logo": "easy-stats-for-basketball.png",
+        "url": "https://itunes.apple.com/us/app/easy-stats-for-basketball/id561687907?ls=1&mt=8",
+        "info": [
+        ],
+        "tags": [88, 89, 57, 60],
+        "weight": 5
+    },
+    {
+        "id": 29,
+        "name": "Store Mapper",
+        "description": "Store Locator SaaS",
+        "logo": "storemapper.png",
+        "url": "https://www.storemapper.co/",
+        "info": [
+            "embeddable plugin for website",
+            "monthly subscription"
+        ],
+        "tags": [90, 91, 92, 60, 71],
+        "weight": 5
+    },
+    {
+        "id": 30,
+        "name": "Kepler Bot",
+        "description": "Instagram Growth Tool",
+        "logo": "kepler-bot.png",
+        "url": "https://keplerbot.com/",
+        "info": [
+        ],
+        "tags": [93, 32, 94, 30],
+        "weight": 5
+    },
+    {
+        "id": 31,
+        "name": "Updown.io",
+        "description": "Website Monitoring Service",
+        "logo": "updown-io.png",
+        "url": "https://updown.io/",
+        "info": [
+            "Web based app",
+            "Credit/Usage based billing"
+        ],
+        "tags": [48, 49, 50],
+        "weight": 5
     }
 
 ]
