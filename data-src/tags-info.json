@@ -206,7 +206,7 @@
     },
     {
         "id": 42,
-        "name": "Mobile",
+        "name": "Mobile App",
         "icon_class": "" 
     },
     {
@@ -467,6 +467,56 @@
     {
         "id": 94,
         "name": "Growth",
+        "icon_class": "" 
+    },
+    {
+        "id": 95,
+        "name": "Feedback",
+        "icon_class": "" 
+    },
+    {
+        "id": 96,
+        "name": "Marketing",
+        "icon_class": "" 
+    },
+    {
+        "id": 97,
+        "name": "Campaign",
+        "icon_class": "" 
+    },
+    {
+        "id": 98,
+        "name": "Consultancy",
+        "icon_class": "" 
+    },
+    {
+        "id": 99,
+        "name": "Community",
+        "icon_class": "" 
+    },
+    {
+        "id": 100,
+        "name": "Time Tracking",
+        "icon_class": "hourglass start" 
+    },
+    {
+        "id": 101,
+        "name": "Mathematics",
+        "icon_class": "" 
+    },
+    {
+        "id": 102,
+        "name": "Windows",
+        "icon_class": "windows" 
+    },
+    {
+        "id": 103,
+        "name": "Coaching",
+        "icon_class": "" 
+    },
+    {
+        "id": 104,
+        "name": "Physical Exercise",
         "icon_class": "" 
     }
 ]

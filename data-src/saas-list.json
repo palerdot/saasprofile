@@ -401,6 +401,91 @@
         ],
         "tags": [48, 49, 50],
         "weight": 5
+    },
+    {
+        "id": 32,
+        "name": "Doorbell",
+        "description": "In-app feedback tool",
+        "logo": "doorbell.png",
+        "url": "https://doorbell.io/",
+        "info": [
+            "Available for Android and IOS",
+            "Free/Freemium"
+        ],
+        "tags": [95, 42, 76, 77, 32],
+        "weight": 5
+    },
+    {
+        "id": 33,
+        "name": "ActionWins & ActionPages",
+        "description": "Referral Marketing Tools",
+        "logo": "action-pages.png",
+        "url": "http://www.actionwins.co/",
+        "info": [
+            "Software to set up pre launch campaigns and referral campaigns"
+        ],
+        "tags": [96, 97, 98, 16],
+        "weight": 5
+    },
+    {
+        "id": 34,
+        "name": "Ministry of Testing",
+        "description": "Community of Software Testers",
+        "logo": "ministry-of-testing.png",
+        "url": "http://www.ministryoftesting.com/",
+        "info": [
+            "Online community for software testers"
+        ],
+        "tags": [41, 99],
+        "weight": 5
+    },
+    {
+        "id": 35,
+        "name": "Timing",
+        "description": "Automatic Time Tracking for Mac",
+        "logo": "timing.png",
+        "url": "https://timingapp.com/",
+        "info": [
+            "Time Tracking app for mac/ios"
+        ],
+        "tags": [57, 77, 3, 100],
+        "weight": 5
+    },
+    {
+        "id": 36,
+        "name": "PocketCAS",
+        "description": "Math Application for Mac/IOS",
+        "logo": "pocketcas.png",
+        "url": "https://pocketcas.com/",
+        "info": [
+            "Advanced Mathematics application for Mac/IOS"
+        ],
+        "tags": [101, 77, 20],
+        "weight": 5
+    },
+    {
+        "id": 37,
+        "name": "ProcrastiTracker",
+        "description": "Time Tracking for Windows",
+        "logo": "no-image.png",
+        "url": "http://strlen.com/procrastitracker/",
+        "info": [
+            "Time Tracking app for windows"
+        ],
+        "tags": [57, 102, 3, 100, 6],
+        "weight": 5
+    },
+    {
+        "id": 38,
+        "name": "Rest",
+        "description": "Break reminder with Coached Exercise",
+        "logo": "rest.png",
+        "url": "https://resttimer.com/en",
+        "info": [
+            "Health Reminder app",
+            "Available for Windows, Mac, IOS"
+        ],
+        "tags": [73, 9, 103, 104],
+        "weight": 5
     }
-
 ]
