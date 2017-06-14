@@ -487,5 +487,93 @@
         ],
         "tags": [73, 9, 103, 104],
         "weight": 5
+    },
+    {
+        "id": 39,
+        "name": "Box Factura",
+        "description": "Invoice Reception Service",
+        "logo": "box-factura.png",
+        "url": "https://www.boxfactura.com/",
+        "info": [
+            "Web based software",
+            "Manages invoices by sending an email"
+        ],
+        "tags": [105, 67, 56],
+        "weight": 5
+    },
+    {
+        "id": 40,
+        "name": "WhatSong",
+        "description": "Film & TV Music Discovery App",
+        "logo": "what-song.png",
+        "url": "http://www.what-song.com/",
+        "info": [
+            "Web based software",
+            "Discovery app Music from Movies and TV"
+        ],
+        "tags": [27, 106, 107],
+        "weight": 5
+    },
+    {
+        "id": 41,
+        "name": "onboardX",
+        "description": "User onboarding Tool",
+        "logo": "onboard-x.png",
+        "url": "https://www.onboardx.com/",
+        "info": [
+            "interactive onboarding tool"
+        ],
+        "tags": [108, 109, 16],
+        "weight": 5
+    },
+    {
+        "id": 42,
+        "name": "Stamp",
+        "description": "Music playlist import/export",
+        "logo": "stamp.png",
+        "url": "https://freeyourmusic.com/",
+        "info": [
+            "Transfers Music playlists across services"
+        ],
+        "tags": [27, 110, 56, 111],
+        "weight": 5
+    },
+    {
+        "id": 43,
+        "name": "Credible",
+        "description": "Display recent sales on your site",
+        "logo": "credible.png",
+        "url": "http://convertwithcredible.com/",
+        "info": [
+            "Shopify app to display recent sales"
+        ],
+        "tags": [112, 57, 71],
+        "weight": 5
+    },
+    {
+        "id": 44,
+        "name": "park.io",
+        "description": "Domain back ordering for Developers",
+        "logo": "park-io.png",
+        "url": "http://park.io/",
+        "info": [
+            "Software service to back order domains"
+        ],
+        "tags": [113, 114, 73],
+        "weight": 5
+    },
+    {
+        "id": 45,
+        "name": "file.io",
+        "description": "Ephemeral file sharing",
+        "logo": "",
+        "url": "https://www.file.io/",
+        "info": [
+            "Secure file sharing with a link.",
+            "Shared file deleted automatically after download",
+            "Can set expiry for shared files"
+        ],
+        "tags": [115, 79, 116],
+        "weight": 5
     }
 ]

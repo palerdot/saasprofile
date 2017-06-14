@@ -221,9 +221,10 @@ var APP = {
 
                 // for the given saas, construct the logo url
                 get_saas_logo: function (saas) {
-                    var LOGO_PATH = "/logos/";
+                    var LOGO_PATH = "/logos/",
+                        DEFAULT_LOGO = "no-image.png";
 
-                    return LOGO_PATH + saas.logo;
+                    return LOGO_PATH + (saas.logo || DEFAULT_LOGO);
                 },
 
                 "get_tag_icons": self.get_tag_icons

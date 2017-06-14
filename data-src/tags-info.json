@@ -518,5 +518,65 @@
         "id": 104,
         "name": "Physical Exercise",
         "icon_class": "" 
+    },
+    {
+        "id": 105,
+        "name": "Invoice",
+        "icon_class": "" 
+    },
+    {
+        "id": 106,
+        "name": "TV",
+        "icon_class": "tv" 
+    },
+    {
+        "id": 107,
+        "name": "Movies",
+        "icon_class": "film" 
+    },
+    {
+        "id": 108,
+        "name": "On Boarding",
+        "icon_class": "" 
+    },
+    {
+        "id": 109,
+        "name": "Guided Tour",
+        "icon_class": "" 
+    },
+    {
+        "id": 110,
+        "name": "Playlists",
+        "icon_class": "" 
+    },
+    {
+        "id": 111,
+        "name": "File Export/Import",
+        "icon_class": "" 
+    },
+    {
+        "id": 112,
+        "name": "Sales",
+        "icon_class": "" 
+    },
+    {
+        "id": 113,
+        "name": "Domain",
+        "icon_class": "" 
+    },
+    {
+        "id": 114,
+        "name": "Ordering",
+        "icon_class": "" 
+    },
+    {
+        "id": 115,
+        "name": "File / Digital Documents",
+        "icon_class": "" 
+    },
+    {
+        "id": 116,
+        "name": "Privacy",
+        "icon_class": "" 
     }
 ]
