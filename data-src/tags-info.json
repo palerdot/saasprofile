@@ -578,5 +578,55 @@
         "id": 116,
         "name": "Privacy",
         "icon_class": "" 
+    },
+    {
+        "id": 117,
+        "name": "cars",
+        "icon_class": "" 
+    },
+    {
+        "id": 118,
+        "name": "test drive",
+        "icon_class": "" 
+    },
+    {
+        "id": 119,
+        "name": "Online Course",
+        "icon_class": "" 
+    },
+    {
+        "id": 120,
+        "name": "Bot",
+        "icon_class": "" 
+    },
+    {
+        "id": 121,
+        "name": "Intercom (Company)",
+        "icon_class": "" 
+    },
+    {
+        "id": 122,
+        "name": "Quoting/estimation",
+        "icon_class": "" 
+    },
+    {
+        "id": 123,
+        "name": "Graphic Design",
+        "icon_class": "" 
+    },
+    {
+        "id": 124,
+        "name": "Podcast",
+        "icon_class": "" 
+    },
+    {
+        "id": 125,
+        "name": "radio",
+        "icon_class": "" 
+    },
+    {
+        "id": 126,
+        "name": "T-Shirts",
+        "icon_class": "shirt" 
     }
 ]

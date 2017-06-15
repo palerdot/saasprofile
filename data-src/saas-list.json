@@ -575,5 +575,105 @@
         ],
         "tags": [115, 79, 116],
         "weight": 5
+    },
+    {
+        "id": 46,
+        "name": "Dealer Video Showroom",
+        "description": "Automotive Video Marketing Platform",
+        "logo": "dealer-video-showroom.png",
+        "url": "http://dealervideoshowroom.com/",
+        "info": [
+            "Platform to showcase auto test drive videos for car dealers",
+            "Different pricing plans"
+        ],
+        "tags": [29, 96, 117, 118],
+        "weight": 5
+    },
+    {
+        "id": 47,
+        "name": "WebdriverIO Online Course",
+        "description": "E-Course for WebdriverIO",
+        "logo": "webdriverio-online-course.png",
+        "url": "http://learn.webdriver.io/",
+        "info": [
+            "Online course for learning Webdriver IO"
+        ],
+        "tags": [119, 41, 43],
+        "weight": 5
+    },
+    {
+        "id": 48,
+        "name": "Statbot",
+        "description": "Analytics & Insights for Intercom",
+        "logo": "statbot.png",
+        "url": "http://www.statbot.io/",
+        "info": [
+            "Analytics tools for Intercom",
+            "Monthly subscription plans"
+        ],
+        "tags": [120, 121, 60, 61],
+        "weight": 5
+    },
+    {
+        "id": 49,
+        "name": "Quotient",
+        "description": "Online Quoting & Proposal Software",
+        "logo": "quotient.png",
+        "url": "https://www.quotientapp.com/",
+        "info": [
+            "Software for creating quotes/estimation",
+            "Monthly subscription with free trial"
+        ],
+        "tags": [122, 16],
+        "weight": 5
+    },
+    {
+        "id": 50,
+        "name": "Kapa99",
+        "description": "Unlimited Graphic Design",
+        "logo": "kapa99.png",
+        "url": "http://www.kapa99.com/",
+        "info": [
+            "Online graphic design studio for small business",
+            "Monthly Subscription plans"
+        ],
+        "tags": [123, 7, 16],
+        "weight": 5
+    },
+    {
+        "id": 51,
+        "name": "DnBRadio",
+        "description": "Music & Audio Live Streaming and podcasting",
+        "logo": "dnbradio.png",
+        "url": "http://dnbradio.com/",
+        "info": [
+            "Music outlet for independent labels and audio content curators "
+        ],
+        "tags": [4, 27, 78, 124, 125],
+        "weight": 5
+    },
+    {
+        "id": 52,
+        "name": "Teezily",
+        "description": "Design and sell t-shirts online",
+        "logo": "teezily.jpg",
+        "url": "teezily.com",
+        "info": [
+            "Web based e-commerce platform"
+        ],
+        "tags": [126, 16, 19],
+        "weight": 5
+    },
+    {
+        "id": 53,
+        "name": "Teespring",
+        "description": "Design and sell t-shirts online",
+        "logo": "teespring.png",
+        "url": "https://teespring.com/",
+        "info": [
+            "Web based e-commerce platform"
+        ],
+        "tags": [126, 16, 19],
+        "weight": 5
     }
 ]
