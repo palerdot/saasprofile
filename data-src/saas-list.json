@@ -675,5 +675,91 @@
         ],
         "tags": [126, 16, 19],
         "weight": 5
+    },
+    {
+        "id": 54,
+        "name": "urlbox",
+        "description": "Screenshots as a service",
+        "logo": "urlbox.png",
+        "url": "https://urlbox.io/",
+        "info": [
+            "API provider to automate taking website screenshots",
+            "Flexible Monthly subscription plans"
+        ],
+        "tags": [127, 28, 43, 63],
+        "weight": 5
+    },
+    {
+        "id": 55,
+        "name": "SubmitHub",
+        "description": "Music Submission Platform",
+        "logo": "submithub.png",
+        "url": "http://www.submithub.com/",
+        "info": [
+            "Provides feedback on music submission",
+            "Free/Freemium"
+        ],
+        "tags": [27, 128, 129, 130],
+        "weight": 5
+    },
+    {
+        "id": 56,
+        "name": "Delim.co",
+        "description": "Comma Delimiting tool",
+        "logo": "delim-co.png",
+        "url": "http://delim.co/",
+        "info": [
+            "free tool"
+        ],
+        "tags": [131, 32, 1],
+        "weight": 5
+    },
+    {
+        "id": 57,
+        "name": "Hubstaff",
+        "description": "Time tracking software",
+        "logo": "hubstaff.png",
+        "url": "https://hubstaff.com/",
+        "info": [
+            "Pricing plans with free trial"
+        ],
+        "tags": [57, 100, 3],
+        "weight": 5
+    },
+    {
+        "id": 58,
+        "name": "AeroLeads",
+        "description": "Prospect generation software",
+        "logo": "aeroleads.png",
+        "url": "https://www.aeroleads.com/",
+        "info": [
+            "Flexible Monthly subscriptions"
+        ],
+        "tags": [132, 16],
+        "weight": 5
+    },
+    {
+        "id": 59,
+        "name": "EDM Hunters",
+        "description": "Music discovery app",
+        "logo": "edm-hunters.png",
+        "url": "http://www.edmhunters.com/",
+        "info": [
+            "Music discovery website for electronic music"
+        ],
+        "tags": [27, 133],
+        "weight": 5
+    },
+    {
+        "id": 60,
+        "name": "Old Geek Jobs",
+        "description": "Tech jobs for Ages 35+",
+        "logo": "old-geek-jobs.png",
+        "url": "https://oldgeekjobs.com/",
+        "info": [
+            "Software job board for 35+ aged"
+        ],
+        "tags": [134, 135, 2, 36],
+        "weight": 5
     }
 ]

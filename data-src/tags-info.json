@@ -628,5 +628,50 @@
         "id": 126,
         "name": "T-Shirts",
         "icon_class": "shirtsinbulk" 
+    },
+    {
+        "id": 127,
+        "name": "Screenshots",
+        "icon_class": "" 
+    },
+    {
+        "id": 128,
+        "name": "Submission platforms",
+        "icon_class": "" 
+    },
+    {
+        "id": 129,
+        "name": "Blog",
+        "icon_class": "" 
+    },
+    {
+        "id": 130,
+        "name": "Music record labels",
+        "icon_class": "" 
+    },
+    {
+        "id": 131,
+        "name": "Delimiter tools",
+        "icon_class": "" 
+    },
+    {
+        "id": 132,
+        "name": "Prospect/Leads",
+        "icon_class": "" 
+    },
+    {
+        "id": 133,
+        "name": "Discovery Services",
+        "icon_class": "" 
+    },
+    {
+        "id": 134,
+        "name": "Age Friendly",
+        "icon_class": "" 
+    },
+    {
+        "id": 135,
+        "name": "Accesibility",
+        "icon_class": "" 
     }
 ]
