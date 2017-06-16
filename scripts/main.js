@@ -38,6 +38,10 @@ var APP = {
                 // set error to show error message
                 self.sp_error_vue.error = true;
                 self.sp_error_vue.error_msg = "Fetching SaaS list failed. Please <a href=''>refresh</a>!"
+            } )
+            .always( function () {
+                // set loading status as false to hide the loading
+                self.sp_error_vue.loading = false;
             } );
     },
 
@@ -131,7 +135,8 @@ var APP = {
 
             data: {
                 error: false,
-                error_msg: ""
+                error_msg: "",
+                loading: true
             }
 
         });
