@@ -4,6 +4,8 @@ nav a {
     color: #616161 !important;
 }
 
+
+
 .ui.dropdown {
     .text {
         display: block;
@@ -29,6 +31,22 @@ nav a {
     color: $light_text_color !important;
 }
 
-#saas-grid .meta {
-    color: $meta_color !important;
+#tag-list-dropdown {
+    .ui.label {
+        background-color: #41b2f4 !important;
+        color: white !important;
+    }
+}
+
+#saas-grid {
+    
+    .meta {
+        color: $meta_color !important;    
+    }
+
+    .selected.sp-red {
+        background-color: #41b2f4 !important;
+        color: white !important;
+    }    
+    
 }

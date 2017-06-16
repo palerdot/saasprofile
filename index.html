@@ -131,7 +131,7 @@
                         </div>
                     </div>
                     <div class="extra content ui labels light-bg">
-                        <div v-for="tag in get_tags_for_saas_list( saas )" class="ui sp-red label">
+                        <div v-for="tag in get_tags_for_saas_list( saas )" v-bind:class="get_tag_class(tag)">
                             <i v-bind:class="get_tag_icons( tag )"></i> {{ tag.name }}
                         </div>
                     </div>

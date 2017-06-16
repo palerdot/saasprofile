@@ -215,6 +215,13 @@ var APP = {
                     return tags;
                 },
 
+                // if the tag is among the current selected tag, mark it
+                "get_tag_class": function (tag) {
+                    var DEFAULT_CLASS = "ui sp-red label";
+                    var is_tag_selected = _.includes( self.tags_list_vue.selected_tags, tag.id );
+                    return is_tag_selected ? (DEFAULT_CLASS + " selected") : DEFAULT_CLASS;
+                },
+
                 "count_msg": function () {
                     return "Showing " + this.count + " " + (this.count > 1 ? "softwares" : "software");
                 },
