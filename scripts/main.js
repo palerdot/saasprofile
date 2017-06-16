@@ -135,8 +135,7 @@ var APP = {
 
             data: {
                 error: false,
-                error_msg: "",
-                loading: false
+                error_msg: ""
             }
 
         });

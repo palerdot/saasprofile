@@ -26,15 +26,7 @@
         </div>
     </div>
 
-    <div id="sp-error-vue" class="" v-if="error || loading">
-
-        <div class="ui segment">
-            <div class="ui inverted active dimmer" v-bind:class="{ active: loading, dimmer: loading }">
-                <div class="ui text loader green message">Fetching SaaS list for you ...</div>
-                </div>
-                <p></p>
-        </div>
-
+    <div id="sp-error-vue" class="" v-if="error">
         <transition name="fade" v-if="error">
             <div v-html="error_msg" class="message center aligned text relaxed container" v-bind:class="{ red: error, ui: error }">
             </div>
