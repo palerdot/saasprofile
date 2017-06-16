@@ -28,8 +28,7 @@
 
     <div id="sp-error-vue" class="" v-if="error">
         <transition name="fade" v-if="error">
-            <div class="message center aligned text relaxed container" v-bind:class="{ red: error, ui: error }">
-                Fetching SaaS list failed. Please <a href=''>refresh</a> and see if it fixes it!
+            <div v-html="error_msg" class="message center aligned text relaxed container" v-bind:class="{ red: error, ui: error }">
             </div>
         </transition>
     </div>

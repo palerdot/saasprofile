@@ -37,6 +37,7 @@ var APP = {
                 console.log("fetching dependencies failed");
                 // set error to show error message
                 self.sp_error_vue.error = true;
+                self.sp_error_vue.error_msg = "Fetching SaaS list failed. Please <a href=''>refresh</a>!"
             } );
     },
 
@@ -129,7 +130,8 @@ var APP = {
             el: "#sp-error-vue",
 
             data: {
-                error: false
+                error: false,
+                error_msg: ""
             }
 
         });
