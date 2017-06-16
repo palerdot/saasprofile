@@ -31,7 +31,13 @@ var APP = {
                 self.saasInfo = _.sortBy( sData[0], function (saas) { return -saas.weight; } );
                 // proceed with app initialization
                 self.start();
-            });
+            })
+            // show error message if failed to get dependencies
+            .fail( function () {
+                console.log("fetching dependencies failed");
+                // set error to show error message
+                self.sp_error_vue.error = true;
+            } );
     },
 
     start: function() {
@@ -116,6 +122,17 @@ var APP = {
     init_vues: function() {
 
         var self = this; // save reference
+
+        // error vue to show errors (in case of 400/500 errors from cloudflare! github)
+        this.sp_error_vue = new Vue({
+
+            el: "#sp-error-vue",
+
+            data: {
+                error: false
+            }
+
+        });
 
         // saas need vue
         this.saas_need_vue = new Vue({

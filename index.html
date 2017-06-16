@@ -26,6 +26,14 @@
         </div>
     </div>
 
+    <div id="sp-error-vue" class="" v-if="error">
+        <transition name="fade" v-if="error">
+            <div class="message center aligned text relaxed container" v-bind:class="{ red: error, ui: error }">
+                Fetching SaaS list failed. Please <a href=''>refresh</a> and see if it fixes it!
+            </div>
+        </transition>
+    </div>
+
     <div class="ui text center aligned container segment relaxed grid">
 
         <div id="saas-need-vue" class="ui container center aligned row">
