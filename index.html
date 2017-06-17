@@ -76,7 +76,14 @@
                     <input type="hidden" name="tags" v-on:change="handleChange" v-model="selected_tags">
                     <i class="dropdown icon"></i>
                     <div class="default text">Select Tags</div>
+                    
                     <div class="menu">
+                        <div class="ui icon search input">
+                            <i class="search icon"></i>
+                            <input type="text" placeholder="Search tags...">
+                        </div>
+                        <div class="divider"></div>
+
                         <div class="item" v-for="tag in tags" v-bind:data-value="tag.id" v-bind:data-text="tag.name">
                             <i v-bind:class="get_tag_icons( tag )"></i> {{ tag.name }}
                         </div>

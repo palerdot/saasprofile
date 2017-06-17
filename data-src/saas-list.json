@@ -849,5 +849,91 @@
         ],
         "tags": [116, 146, 147],
         "weight": 5
+    },
+    {
+        "id": 68,
+        "name": "Pentester Lab",
+        "description": "Learn web application hacking",
+        "logo": "pentesterlab.png",
+        "url": "https://www.pentesterlab.com/",
+        "info": [
+            "Online course to learn web hacking/penetration testing",
+            "Free/Pro courses available"
+        ],
+        "tags": [119, 41, 36],
+        "weight": 5
+    },
+    {
+        "id": 69,
+        "name": "Augrav",
+        "description": "3D printed personalized jewellery",
+        "logo": "augrav.png",
+        "url": "http://www.augrav.com/",
+        "info": [
+            "Helps create personalized jewellery using technology"
+        ],
+        "tags": [148, 149, 150, 16, 36],
+        "weight": 5
+    },
+    {
+        "id": 70,
+        "name": "CustomFilterz",
+        "description": "Snapchat Geofilter design",
+        "logo": "customfilterz.png",
+        "url": "https://customfilterz.com/",
+        "info": [
+            "Monthly subscription and custom packages available"
+        ],
+        "tags": [151, 152, 7],
+        "weight": 5
+    },
+    {
+        "id": 71,
+        "name": "Maître",
+        "description": "Viral Waiting list",
+        "logo": "maitre.png",
+        "url": "https://maitreapp.co/",
+        "info": [
+            "Automated marketing & growth",
+            "One-time fee"
+        ],
+        "tags": [96, 94, 16],
+        "weight": 5
+    },
+    {
+        "id": 72,
+        "name": "Kanban for wordpress",
+        "description": "kanban board wordpress plugin",
+        "logo": "kanban-for-wordpress.png",
+        "url": "https://kanbanwp.com/",
+        "info": [
+            "Free/Pro versions"
+        ],
+        "tags": [153, 51, 66],
+        "weight": 5
+    },
+    {
+        "id": 73,
+        "name": "MoonMail",
+        "description": "Cloud Email marketing",
+        "logo": "moonmail.png",
+        "url": "https://www.moonmail.io/",
+        "info": [
+            "Monthly subscription and enterprise plans"
+        ],
+        "tags": [143, 39, 96],
+        "weight": 5
+    },
+    {
+        "id": 74,
+        "name": "Wanqu",
+        "description": "Article curation for chinese audience",
+        "logo": "wanqu.png",
+        "url": "https://wanqu.co/?s=indiehacker",
+        "info": [
+            "IOS and web app available"
+        ],
+        "tags": [154, 155, 156],
+        "weight": 5
     }
 ]

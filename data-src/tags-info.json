@@ -733,5 +733,50 @@
         "id": 147,
         "name": "Bitcoin",
         "icon_class": "" 
+    },
+    {
+        "id": 148,
+        "name": "Jewellery",
+        "icon_class": "" 
+    },
+    {
+        "id": 149,
+        "name": "3D Modeling",
+        "icon_class": "" 
+    },
+    {
+        "id": 150,
+        "name": "Personalization",
+        "icon_class": "" 
+    },
+    {
+        "id": 151,
+        "name": "Snapchat",
+        "icon_class": "" 
+    },
+    {
+        "id": 152,
+        "name": "Geofilters",
+        "icon_class": "" 
+    },
+    {
+        "id": 153,
+        "name": "Kanban",
+        "icon_class": "" 
+    },
+    {
+        "id": 154,
+        "name": "Article",
+        "icon_class": "" 
+    },
+    {
+        "id": 155,
+        "name": "Chinese",
+        "icon_class": "" 
+    },
+    {
+        "id": 156,
+        "name": "Curation",
+        "icon_class": "" 
     }
 ]
