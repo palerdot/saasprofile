@@ -673,5 +673,65 @@
         "id": 135,
         "name": "Accessibility",
         "icon_class": "" 
+    },
+    {
+        "id": 136,
+        "name": "RSS",
+        "icon_class": "rss" 
+    },
+    {
+        "id": 137,
+        "name": "Feeds",
+        "icon_class": "rss" 
+    },
+    {
+        "id": 138,
+        "name": "Reader",
+        "icon_class": "" 
+    },
+    {
+        "id": 139,
+        "name": "Personal Computers (PC)",
+        "icon_class": "desktop" 
+    },
+    {
+        "id": 140,
+        "name": "Do it Yourself (DIY)",
+        "icon_class": "" 
+    },
+    {
+        "id": 141,
+        "name": "hardware",
+        "icon_class": "" 
+    },
+    {
+        "id": 142,
+        "name": "accessories/peripherals",
+        "icon_class": "" 
+    },
+    {
+        "id": 143,
+        "name": "Cloud",
+        "icon_class": "" 
+    },
+    {
+        "id": 144,
+        "name": "Platform",
+        "icon_class": "" 
+    },
+    {
+        "id": 145,
+        "name": "Framework",
+        "icon_class": "" 
+    },
+    {
+        "id": 146,
+        "name": "Phone",
+        "icon_class": "" 
+    },
+    {
+        "id": 147,
+        "name": "Bitcoin",
+        "icon_class": "" 
     }
 ]

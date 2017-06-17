@@ -761,5 +761,93 @@
         ],
         "tags": [134, 135, 2, 36],
         "weight": 5
+    },
+    {
+        "id": 61,
+        "name": "HumanPredictions",
+        "description": "Tech Recruiting Tool",
+        "logo": "humanpredictions.png",
+        "url": "https://humanpredictions.io/",
+        "info": [
+            "Recruiting tool for better hiring of computer programmers",
+            "Quarterly/yearly subscription plans"
+        ],
+        "tags": [2, 36, 32, 60],
+        "weight": 5
+    },
+    {
+        "id": 62,
+        "name": "feeder",
+        "description": "RSS Feed Reader",
+        "logo": "feeder.png",
+        "url": "http://feeder.co/",
+        "info": [
+            "Available as web app, chrome extension, android and IOS apps",
+            "Free/Freemium"
+        ],
+        "tags": [136, 137, 138, 42],
+        "weight": 5
+    },
+    {
+        "id": 63,
+        "name": "Pangoly",
+        "description": "Build your shiny new PC",
+        "logo": "pangoly.png",
+        "url": "https://pangoly.com/",
+        "info": [
+            "Free service for picking best hardware and peripherals for building PC"
+        ],
+        "tags": [139, 140, 141, 142],
+        "weight": 5
+    },
+    {
+        "id": 64,
+        "name": "LabelGrid",
+        "description": "Cloud platform for Record labels",
+        "logo": "labelgrid.png",
+        "url": "https://www.labelgrid.com/",
+        "info": [
+            "Platform for audio labels and podcasters to manage their content online"
+        ],
+        "tags": [130, 143, 144, 27],
+        "weight": 5
+    },
+    {
+        "id": 65,
+        "name": "Sidekiq",
+        "description": "Open Source background job framework",
+        "logo": "sidekiq.png",
+        "url": "http://sidekiq.org/",
+        "info": [
+            "Free/Freemium background processing framework for ruby",
+            "Yearly subscription for pro version"
+        ],
+        "tags": [6, 36, 145],
+        "weight": 5
+    },
+    {
+        "id": 66,
+        "name": "Terminerinnerung",
+        "description": "Appointment Reminder service",
+        "logo": "terminerinnerung.png",
+        "url": "https://www.terminerinnerung.org/",
+        "info": [
+            "Austria region specific appointment reminder service",
+            "Monthly subscriptions"
+        ],
+        "tags": [73, 74, 75],
+        "weight": 5
+    },
+    {
+        "id": 67,
+        "name": "SMS privacy",
+        "description": "Anonymous bitcoin phone numbers",
+        "logo": "sms-privacy.png",
+        "url": "https://smsprivacy.org/",
+        "info": [
+            "Anonymous private phone numbers and SMS"
+        ],
+        "tags": [116, 146, 147],
+        "weight": 5
     }
 ]
