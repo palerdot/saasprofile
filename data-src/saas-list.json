@@ -1023,5 +1023,93 @@
         ],
         "tags": [21, 167, 9, 168],
         "weight": 5
+    },
+    {
+        "id": 82,
+        "name": "My Registry Hub",
+        "description": "Gift Registry",
+        "logo": "my-registry-hub.png",
+        "url": "https://www.myregistryhub.com/",
+        "info": [
+            "Platform for creating and managing gift registries"
+        ],
+        "tags": [169, 170],
+        "weight": 5
+    },
+    {
+        "id": 83,
+        "name": "PageProofer",
+        "description": "Visual Feedback tool",
+        "logo": "pageproofer.png",
+        "url": "https://pageproofer.com/",
+        "info": [
+            "Lets people track bugs and problems right on the website",
+            "Monthly and annual subscription plans"
+        ],
+        "tags": [171, 95, 32, 40],
+        "weight": 5
+    },
+    {
+        "id": 84,
+        "name": "CrazyLister",
+        "description": "Create Professional ebay listings",
+        "logo": "crazylister.png",
+        "url": "https://crazylister.com/",
+        "info": [
+            "Tool to create professional, mobile-optimized ebay listings",
+            "Monthly, Annual subscriptions with 14 day free trial"
+        ],
+        "tags": [172, 173, 32],
+        "weight": 5
+    },
+    {
+        "id": 85,
+        "name": "Product Manager HQ",
+        "description": "Community for Product Managers",
+        "logo": "product-manager-hq.png",
+        "url": "https://www.productmanagerhq.com/?ref=http://saasprofile.com",
+        "info": [
+            "Community with largest product community on slack",
+            "One Week PM - paid online course"
+        ],
+        "tags": [99, 2],
+        "weight": 5
+    },
+    {
+        "id": 86,
+        "name": "Creative Tim",
+        "description": "",
+        "logo": "creative-tim.png",
+        "url": "http://www.creative-tim.com/",
+        "info": [
+            "Software to create design tools like dashboards, plugins and templates",
+            "Free/Freemium"
+        ],
+        "tags": [7, 32, 174, 66, 175, 176],
+        "weight": 5
+    },
+    {
+        "id": 87,
+        "name": "Simple Steps Code",
+        "description": "Web developement courses",
+        "logo": "simple-steps-code.png",
+        "url": "https://simplestepscode.com/",
+        "info": [
+            "Online web development courses to learn javascript"
+        ],
+        "tags": [119],
+        "weight": 5
+    },
+    {
+        "id": 88,
+        "name": "Hello Weather",
+        "description": "Weather app for IOS/mac",
+        "logo": "hello-weather.png",
+        "url": "https://helloweatherapp.com/",
+        "info": [
+            "Free app with in-app purchases"
+        ],
+        "tags": [77, 177, 42],
+        "weight": 5
     }
 ]

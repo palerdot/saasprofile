@@ -156,7 +156,7 @@
     },
     {
         "id": 32,
-        "name": "Tools",
+        "name": "Tool",
         "icon_class": "setting" 
     },
     {
@@ -837,6 +837,51 @@
     {
         "id": 168,
         "name": "Planner",
+        "icon_class": "" 
+    },
+    {
+        "id": 169,
+        "name": "Gift",
+        "icon_class": "" 
+    },
+    {
+        "id": 170,
+        "name": "Registry",
+        "icon_class": "" 
+    },
+    {
+        "id": 171,
+        "name": "Bug Tracker",
+        "icon_class": "" 
+    },
+    {
+        "id": 172,
+        "name": "ebay",
+        "icon_class": "" 
+    },
+    {
+        "id": 173,
+        "name": "listings",
+        "icon_class": "" 
+    },
+    {
+        "id": 174,
+        "name": "User Interface",
+        "icon_class": "" 
+    },
+    {
+        "id": 175,
+        "name": "Dashboard",
+        "icon_class": "" 
+    },
+    {
+        "id": 176,
+        "name": "Templates",
+        "icon_class": "" 
+    },
+    {
+        "id": 177,
+        "name": "Weather",
         "icon_class": "" 
     }
 ]
