@@ -935,5 +935,93 @@
         ],
         "tags": [154, 155, 156],
         "weight": 5
+    },
+    {
+        "id": 75,
+        "name": "Logojoy",
+        "description": "AI-Powered logo maker",
+        "logo": "logojoy.png",
+        "url": "https://logojoy.com/",
+        "info": [
+            "Artificial Intelligence based logo creation",
+            "Flexible monthly subscription plans"
+        ],
+        "tags": [157, 158, 7],
+        "weight": 5
+    },
+    {
+        "id": 76,
+        "name": "Planio",
+        "description": "Project collaboration tool",
+        "logo": "planio.png",
+        "url": "https://plan.io/",
+        "info": [
+            "Flexible monthly subscription plans"
+        ],
+        "tags": [159, 160, 32],
+        "weight": 5
+    },
+    {
+        "id": 77,
+        "name": "Readability Score",
+        "description": "Quality control for content",
+        "logo": "readability-score.png",
+        "url": "https://readability-score.com/",
+        "info": [
+            "Software to help improve readability of text",
+            "Free/Freemium"
+        ],
+        "tags": [82, 161, 162],
+        "weight": 5
+    },
+    {
+        "id": 78,
+        "name": "Hack Pacific",
+        "description": "Online course platform",
+        "logo": "hack-pacific.png",
+        "url": "https://www.hackpacific.com/",
+        "info": [
+            "Online courses for domains like web/mobile developement, machine learning etc"
+        ],
+        "tags": [119],
+        "weight": 5
+    },
+    {
+        "id": 79,
+        "name": "HTML Color Codes",
+        "description": "Color Picker and Reference Tool",
+        "logo": "html-color-codes.png",
+        "url": "http://htmlcolorcodes.com/",
+        "info": [
+            "Free tool for HTML color reference"
+        ],
+        "tags": [163, 32, 164],
+        "weight": 5
+    },
+    {
+        "id": 80,
+        "name": "Value Forest",
+        "description": "",
+        "logo": "value-forest.png",
+        "url": "http://valueforest.co.za/",
+        "info": [
+            "Available for South African Market only"
+        ],
+        "tags": [165, 166],
+        "weight": 5
+    },
+    {
+        "id": 81,
+        "name": "Paleo Meal Plans",
+        "description": "Meal planning service",
+        "logo": "paleo-meal-plans.png",
+        "url": "https://ultimatepaleoguide.com/paleo-101",
+        "info": [
+            "Provides weekly meal plan for health conscious",
+            "Monthly, quarterly and bi-annual subscriptions",
+            "Service available for android and IOS"
+        ],
+        "tags": [21, 167, 9, 168],
+        "weight": 5
     }
 ]

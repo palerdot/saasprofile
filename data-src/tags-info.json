@@ -778,5 +778,65 @@
         "id": 156,
         "name": "Curation",
         "icon_class": "" 
+    },
+    {
+        "id": 157,
+        "name": "Artificial Intelligence (AI)",
+        "icon_class": "" 
+    },
+    {
+        "id": 158,
+        "name": "Logo",
+        "icon_class": "" 
+    },
+    {
+        "id": 159,
+        "name": "Project",
+        "icon_class": "" 
+    },
+    {
+        "id": 160,
+        "name": "Collaboration",
+        "icon_class": "" 
+    },
+    {
+        "id": 161,
+        "name": "Quality",
+        "icon_class": "" 
+    },
+    {
+        "id": 162,
+        "name": "Reading",
+        "icon_class": "" 
+    },
+    {
+        "id": 163,
+        "name": "Reference",
+        "icon_class": "" 
+    },
+    {
+        "id": 164,
+        "name": "Color",
+        "icon_class": "" 
+    },
+    {
+        "id": 165,
+        "name": "Classifieds",
+        "icon_class": "" 
+    },
+    {
+        "id": 166,
+        "name": "Aggregator",
+        "icon_class": "" 
+    },
+    {
+        "id": 167,
+        "name": "Diet",
+        "icon_class": "" 
+    },
+    {
+        "id": 168,
+        "name": "Planner",
+        "icon_class": "" 
     }
 ]
