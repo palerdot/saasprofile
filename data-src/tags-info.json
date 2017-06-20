@@ -883,5 +883,60 @@
         "id": 177,
         "name": "Weather",
         "icon_class": "" 
+    },
+    {
+        "id": 178,
+        "name": "Fundraising",
+        "icon_class": "" 
+    },
+    {
+        "id": 179,
+        "name": "Reporing",
+        "icon_class": "" 
+    },
+    {
+        "id": 180,
+        "name": "Non-Profits",
+        "icon_class": "" 
+    },
+    {
+        "id": 181,
+        "name": "Business proposal",
+        "icon_class": "" 
+    },
+    {
+        "id": 182,
+        "name": "Virtual",
+        "icon_class": "" 
+    },
+    {
+        "id": 183,
+        "name": "Rewards",
+        "icon_class": "" 
+    },
+    {
+        "id": 184,
+        "name": "Public Relations (PR)",
+        "icon_class": "" 
+    },
+    {
+        "id": 185,
+        "name": "Review software",
+        "icon_class": "" 
+    },
+    {
+        "id": 186,
+        "name": "Publishing software",
+        "icon_class": "" 
+    },
+    {
+        "id": 187,
+        "name": "Slack",
+        "icon_class": "" 
+    },
+    {
+        "id": 188,
+        "name": "VK.com",
+        "icon_class": "" 
     }
 ]

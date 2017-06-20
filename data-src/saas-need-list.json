@@ -25,5 +25,11 @@
         "text": "Find Age friendly & Accessible jobs",
         "tags": [134, 135, 2],
         "weight": 111
+    },
+    {
+        "id": 5,
+        "text": "Software for kids & children",
+        "tags": [24, 42],
+        "weight": 110
     }
 ]
