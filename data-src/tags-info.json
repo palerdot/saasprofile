@@ -938,5 +938,40 @@
         "id": 188,
         "name": "VK.com",
         "icon_class": "" 
+    },
+    {
+        "id": 189,
+        "name": "Calendar",
+        "icon_class": "calendar" 
+    },
+    {
+        "id": 190,
+        "name": "Sourcing",
+        "icon_class": "" 
+    },
+    {
+        "id": 191,
+        "name": "Subscription",
+        "icon_class": "" 
+    },
+    {
+        "id": 192,
+        "name": "Recorders",
+        "icon_class": "" 
+    },
+    {
+        "id": 193,
+        "name": "Twitch",
+        "icon_class": "" 
+    },
+    {
+        "id": 194,
+        "name": "Validators",
+        "icon_class": "" 
+    },
+    {
+        "id": 195,
+        "name": "Startup",
+        "icon_class": "" 
     }
 ]
