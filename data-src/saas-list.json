@@ -1374,5 +1374,90 @@
         ],
         "tags": [26, 123, 144],
         "weight": 5
+    },
+    {
+        "id": 110,
+        "name": "ConvertKit",
+        "description": "Email marketing for bloggers",
+        "logo": "convertkit.png",
+        "url": "https://convertkit.com",
+        "info": [
+            "Email marketing software specifically tailored for content creators like bloggers, podcasters and authors",
+            "Monthly subscription plans based on subscriber count"
+        ],
+        "tags": [39, 96, 129],
+        "weight": 5
+    },
+    {
+        "id": 111,
+        "name": "MailChimp",
+        "description": "Email marketing software",
+        "logo": "mailchimp.jpg",
+        "url": "https://mailchimp.com/",
+        "info": [
+            "Free/Freemium"
+        ],
+        "tags": [39, 96],
+        "weight": 5
+    },
+    {
+        "id": 112,
+        "name": "InfusionSoft",
+        "description": "Email marketing and automation software",
+        "logo": "infusionsoft.png",
+        "url": "https://www.infusionsoft.com/",
+        "info": [
+            "Monthly subscriptions with free trial & annual plans"
+        ],
+        "tags": [39, 96, 43, 16, 112],
+        "weight": 5
+    },
+    {
+        "id": 113,
+        "name": "Videoder",
+        "description": "Video & Music downloader",
+        "logo": "videoder.png",
+        "url": "https://www.videoder.net/",
+        "info": [
+            "Available for android platform only"
+        ],
+        "tags": [29, 27, 202, 76, 42],
+        "weight": 5
+    },
+    {
+        "id": 114,
+        "name": "wallabag.it",
+        "description": "Save articles for later",
+        "logo": "wallabag-it.png",
+        "url": "https://wallabag.it/",
+        "info": [
+            "Self hosted and paid hosting options available"
+        ],
+        "tags": [73, 32, 203, 72],
+        "weight": 5
+    },
+    {
+        "id": 116,
+        "name": "Iconic",
+        "description": "Woocommerce plugins",
+        "logo": "iconic.png",
+        "url": "https://iconicwp.com/",
+        "info": [
+            "Free/Freemium woocommerce plugins"
+        ],
+        "tags": [204, 66, 51, 19],
+        "weight": 5
+    },
+    {
+        "id": 117,
+        "name": "Marketing for Developers",
+        "description": "Marketing course for computer programmers",
+        "logo": "marketing-for-developers.png",
+        "url": "https://devmarketing.xyz/",
+        "info": [
+            "Course with Book & Video material"
+        ],
+        "tags": [96, 119, 37],
+        "weight": 5
     }
 ]

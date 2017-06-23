@@ -1003,5 +1003,20 @@
         "id": 201,
         "name": "Genetics/gene",
         "icon_class": "" 
+    },
+    {
+        "id": 202,
+        "name": "Downloader",
+        "icon_class": "" 
+    },
+    {
+        "id": 203,
+        "name": "Offline",
+        "icon_class": "" 
+    },
+    {
+        "id": 204,
+        "name": "Woocommerce",
+        "icon_class": "" 
     }
 ]
