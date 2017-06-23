@@ -946,7 +946,7 @@
     },
     {
         "id": 190,
-        "name": "Sourcing",
+        "name": "Shipping & Sourcing",
         "icon_class": "" 
     },
     {
@@ -972,6 +972,36 @@
     {
         "id": 195,
         "name": "Startup",
+        "icon_class": "" 
+    },
+    {
+        "id": 196,
+        "name": "Cron",
+        "icon_class": "" 
+    },
+    {
+        "id": 197,
+        "name": "Nespresso",
+        "icon_class": "" 
+    },
+    {
+        "id": 198,
+        "name": "Pods",
+        "icon_class": "" 
+    },
+    {
+        "id": 199,
+        "name": "Solar",
+        "icon_class": "" 
+    },
+    {
+        "id": 200,
+        "name": "Installers",
+        "icon_class": "" 
+    },
+    {
+        "id": 201,
+        "name": "Genetics/gene",
         "icon_class": "" 
     }
 ]

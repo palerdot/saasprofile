@@ -1277,7 +1277,7 @@
     {
         "id": 102,
         "name": "Idea Check",
-        "description": "Ideas validation tool",
+        "description": "Idea validation tool",
         "logo": "ideacheck-io.png",
         "url": "http://www.ideacheck.io/?utm_source=indiehackers",
         "info": [
@@ -1285,6 +1285,94 @@
             "Subscription plans based on idea respondents"
         ],
         "tags": [194, 32, 16, 60, 195],
+        "weight": 5
+    },
+    {
+        "id": 103,
+        "name": "Cronitor",
+        "description": "Monitor scheduled tasks and services",
+        "logo": "cronitor.png",
+        "url": "https://cronitor.io/",
+        "info": [
+            "Tool to monitor critical cron tasks and other services",
+            "Monthly subscriptions based on usage"
+        ],
+        "tags": [196, 48, 74, 49],
+        "weight": 5
+    },
+    {
+        "id": 104,
+        "name": "mugpods",
+        "description": "Nespresso compatible pods",
+        "logo": "mugpods.png",
+        "url": "https://mugpods.com/",
+        "info": [
+            "E-Commerce service shipping nespresso compatible pods"
+        ],
+        "tags": [197, 198, 190],
+        "weight": 5
+    },
+    {
+        "id": 105,
+        "name": "Ghost",
+        "description": "Professional publishing platform",
+        "logo": "ghost.png",
+        "url": "https://ghost.org/",
+        "info": [
+            "Modern blogging platform like wordpress"
+        ],
+        "tags": [186, 129, 82, 144],
+        "weight": 5
+    },
+    {
+        "id": 106,
+        "name": "Photon",
+        "description": "Solar panel installation app",
+        "logo": "photon.png",
+        "url": "https://www.tryphoton.com/",
+        "info": [
+            "Available for IOS platform",
+            "Turns IOS device to a mini solar panel installer",
+            "Available for consumers and solar service providers"
+        ],
+        "tags": [199, 200, 77, 42],
+        "weight": 5
+    },
+    {
+        "id": 107,
+        "name": "SelfDecode",
+        "description": "Digital health coach with genetics",
+        "logo": "selfdecode.png",
+        "url": "https://www.selfdecode.com/",
+        "info": [
+            "Health recommendations by analyzing your gene/genetics",
+            "Monthly subscription"
+        ],
+        "tags": [201, 9, 25],
+        "weight": 5
+    },
+    {
+        "id": 108,
+        "name": "SelfHacked",
+        "description": "Health & Lifestyle related blog",
+        "logo": "self-hacked.jpg",
+        "url": "https://selfhacked.com",
+        "info": [
+            "Blog for health & lifestyle solutions"
+        ],
+        "tags": [129, 9, 25],
+        "weight": 5
+    },
+    {
+        "id": 109,
+        "name": "Designhill",
+        "description": "Graphic design marketplace",
+        "logo": "designhill.png",
+        "url": "http://www.designhill.com",
+        "info": [
+            "Graphic design platform and marketplace"
+        ],
+        "tags": [26, 123, 144],
         "weight": 5
     }
 ]
