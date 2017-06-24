@@ -32,14 +32,30 @@ nav a {
     background: $light_bg_color !important;
 }
 
+.light-grey-bg {
+    background: $light_grey_bg !important;
+}
+
+.light-bg-border {
+    border: thin solid $light_bg_border !important;
+    box-shadow: 0 1px 2px 0 rgba(255, 189, 189, .15) !important;
+}
+
 .light-text {
     color: $light_text_color !important;
 }
 
+.red-text {
+    color: $sp_red !important;
+}
+
 #tag-list-dropdown {
     .ui.label {
-        background-color: #41b2f4 !important;
-        color: white !important;
+        // background-color: #41b2f4 !important;
+        // color: white !important;
+        background-color: $sp_yellow !important;
+        color: $sp_red !important;
+        border: thin solid $sp_red;
     }
 }
 
@@ -50,8 +66,11 @@ nav a {
     }
 
     .selected.sp-red {
-        background-color: #41b2f4 !important;
-        color: white !important;
+        // background-color: #41b2f4 !important;
+        // color: white !important;
+        background-color: $sp_yellow !important;
+        color: $sp_red !important;
+        border: thin solid $sp_red;
     }    
     
 }

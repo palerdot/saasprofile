@@ -1038,5 +1038,20 @@
         "id": 208,
         "name": "Chrome Extension",
         "icon_class": "chrome" 
+    },
+    {
+        "id": 209,
+        "name": "Amazon",
+        "icon_class": "amazon" 
+    },
+    {
+        "id": 210,
+        "name": "Amazon FBA",
+        "icon_class": "amazon" 
+    },
+    {
+        "id": 211,
+        "name": "Hacker News",
+        "icon_class": "hacker news" 
     }
 ]

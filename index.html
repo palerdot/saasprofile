@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>SaasProfile - Listing of useful software tools</title>
+    <title>SaasProfile - Find interesting &amp; useful software tools</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="/css/semantic.min.css" media="screen,projection" />
     <!-- <link type="text/css" rel="stylesheet" href="/css/main.css" media="screen,projection" /> -->
@@ -14,7 +14,7 @@
 
 <body class="">
     
-    <div class="ui borderless main menu light-bg">
+    <div class="ui borderless main menu light-bg light-bg-border">
         <div class="ui text container">
             <div href="#" class="header item">
                 <img class="logo" src="logo/saasprofile-128.png"> SaaS Profile
@@ -42,11 +42,11 @@
                     <div class="default text">Select your need</div>
                     <div class="menu">
                         <div class="item" v-for="need in saasNeed" v-bind:data-value="need.id">
-                            <div class="ui segment light-bg">
+                            <div class="ui segment light-bg light-bg-border">
                                 <div class="section">
                                     {{ need.text }}
                                 </div>
-                                <div class="ui divider"></div>
+                                <div class="ui divider light-bg-border"></div>
                                 <div class="section ui labels">
                                     <div v-for="tag in get_tags_for_need( need )" class="ui sp-red label">
                                         <i v-bind:class="get_tag_icons( tag )"></i> {{ tag.name }}
@@ -66,7 +66,7 @@
         <div id="tags-list-vue" class="ui container center aligned row">
 
             <div id="" class="left ui rail aligned container">
-                <div id="" class="ui sticky segment light-bg">
+                <div id="" class="ui sticky segment light-bg light-bg-border red-text">
                     <i class="info circle icon"></i> {{ count_msg() }}
                 </div>
             </div>
@@ -118,14 +118,14 @@
         <div id="saas-grid" class="ui container row grid segment">
 
             <div id="" class="left ui rail aligned container">
-                <div id="saas-count" class="ui sticky segment light-bg">
+                <div id="saas-count" class="ui sticky segment light-bg light-bg-border red-text">
                     <i class="info circle icon"></i> {{ count_msg() }}
                 </div>
             </div>        
 
             <div class="ui stackable cards row">
                 <a class="ui centered card" v-for="saas in saas_list" v-bind:href="saas.url" target="_blank">
-                    <div class="content light-bg">
+                    <div class="content light-grey-bg">
                         <img class="left floated mini ui image" v-bind:src="get_saas_logo(saas)">
                         <div class="header">
                             {{saas.name}}
@@ -144,7 +144,7 @@
                             </ol>
                         </div>
                     </div>
-                    <div class="extra content ui labels light-bg">
+                    <div class="extra content ui labels light-grey-bg">
                         <div v-for="tag in get_tags_for_saas_list( saas )" v-bind:class="get_tag_class(tag)">
                             <i v-bind:class="get_tag_icons( tag )"></i> {{ tag.name }}
                         </div>

@@ -1548,5 +1548,92 @@
         ],
         "tags": [30, 60, 74, 186],
         "weight": 5
+    },
+    {
+        "id": 125,
+        "name": "FounderKit",
+        "description": "Reviews on startup tools",
+        "logo": "founderkit.png",
+        "url": "https://founderkit.com/",
+        "info": [
+            "Provides ratings and reviews on tools used by startups",
+            "One time fee for providers to provide deals to startups"
+        ],
+        "tags": [185, 195, 32, 99],
+        "weight": 5
+    },
+    {
+        "id": 126,
+        "name": "Query Feed",
+        "description": "Search social media anonymously",
+        "logo": "queryfeed.png",
+        "url": "https://queryfeed.net/",
+        "info": [
+            "Free/Freemium tool"
+        ],
+        "tags": [30, 116],
+        "weight": 5
+    },
+    {
+        "id": 127,
+        "name": "Workshop",
+        "description": "Leads for Designers and developers",
+        "logo": "workshop.png",
+        "url": "http://letsworkshop.com/",
+        "info": [
+            "Monthly fee to get clients/leads for designers and computer programmers."
+        ],
+        "tags": [132, 7, 37],
+        "weight": 5
+    },
+    {
+        "id": 128,
+        "name": "AccelerList",
+        "description": "Amazon product listings",
+        "logo": "accelerlist.png",
+        "url": "http://accelerlist.com/",
+        "info": [
+            "Monthly subscription plans"
+        ],
+        "tags": [209, 210, 173],
+        "weight": 5
+    },
+    {
+        "id": 129,
+        "name": "Cash Overflow",
+        "description": "Personal finance blog",
+        "logo": "cash-overflow.png",
+        "url": "https://www.cashoverflow.in/",
+        "info": [
+            "Finance related blog regarding actionable steps to save money on travel, shopping, taxes, and investments",
+            "Paid newsletter service"
+        ],
+        "tags": [129, 13, 25],
+        "weight": 5
+    },
+    {
+        "id": 130,
+        "name": "Hacker News",
+        "description": "Listing of books from HackerNews",
+        "logo": "hacker-news-books.png",
+        "url": "http://hackernewsbooks.com/",
+        "info": [
+            "Free listing of books mentioned in Hacker news"
+        ],
+        "tags": [211, 5, 162, 173],
+        "weight": 5
+    },
+    {
+        "id": 131,
+        "name": "Snappa",
+        "description": "Graphic Design Tool",
+        "logo": "snappa.png",
+        "url": "https://snappa.com/",
+        "info": [
+            "Helps non-designers to create designs",
+            "Free/Freemium tool"
+        ],
+        "tags": [123, 32, 7],
+        "weight": 5
     }
 ]
