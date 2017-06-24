@@ -235,6 +235,10 @@ var APP = {
                         return _.includes( saas.tags, tag.id );
                     } );
 
+                    tags = _.sortBy( tags, function (t) {
+                        return !(_.includes( self.tags_list_vue.selected_tags, t.id ));
+                    } );
+
                     return tags;
                 },
 
