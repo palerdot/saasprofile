@@ -1459,5 +1459,94 @@
         ],
         "tags": [96, 119, 37],
         "weight": 5
+    },
+    {
+        "id": 118,
+        "name": "Anatomonics",
+        "description": "Anatomy learning system",
+        "logo": "anatomonics.png",
+        "url": "http://www.anatomonics.com/",
+        "info": [
+            "Software to learn/memorize mneumonics for anatomy field",
+            "3 One-time pricing plans available"
+        ],
+        "tags": [205, 206],
+        "weight": 5
+    },
+    {
+        "id": 119,
+        "name": "Less Annoying CRM",
+        "description": "Simple CRM for small business",
+        "logo": "less-annoying-crm.png",
+        "url": "https://www.lessannoyingcrm.com/",
+        "info": [
+            "CRM solutions for small business tailored for sales reps, support reps etc",
+            "Monthly subscription plans"
+        ],
+        "tags": [44, 16],
+        "weight": 5
+    },
+    {
+        "id": 120,
+        "name": "Insomnia",
+        "description": "Graphical api client",
+        "logo": "insomnia.png",
+        "url": "https://insomnia.rest/",
+        "info": [
+            "Free/Freemium HTTP API client for programmers",
+            "Available for window, linux and mac"
+        ],
+        "tags": [63, 207, 10, 37],
+        "weight": 5
+    },
+    {
+        "id": 121,
+        "name": "Paw",
+        "description": "API client for Mac",
+        "logo": "paw.jpg",
+        "url": "https://paw.cloud/",
+        "info": [
+            "Available only for mac platform",
+            "One time purchase with free trial"
+        ],
+        "tags": [63, 207, 77, 10, 37],
+        "weight": 5
+    },
+    {
+        "id": 122,
+        "name": "Advanced REST client",
+        "description": "API testing chrome extension tool",
+        "logo": "",
+        "url": "https://advancedrestclient.com/",
+        "info": [
+            "Free & Open-source api client for chrome browser"
+        ],
+        "tags": [63, 208, 10, 37],
+        "weight": 5
+    },
+    {
+        "id": 123,
+        "name": "postman",
+        "description": "API Testing tool",
+        "logo": "postman.jpg",
+        "url": "https://www.getpostman.com/",
+        "info": [
+            "Available for windows, linux and mac",
+            "Free/Freemium"
+        ],
+        "tags": [63, 10, 37],
+        "weight": 5
+    },
+    {
+        "id": 124,
+        "name": "Amplifr",
+        "description": "Social Media scheduling and Analytics",
+        "logo": "amplifr.png",
+        "url": "https://amplifr.com/",
+        "info": [
+            "Price based on per social media connected"
+        ],
+        "tags": [30, 60, 74, 186],
+        "weight": 5
     }
 ]

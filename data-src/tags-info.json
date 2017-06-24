@@ -311,7 +311,7 @@
     },
     {
         "id": 63,
-        "name": "API",
+        "name": "API (Application Program Interface)",
         "icon_class": "" 
     },
     {
@@ -1018,5 +1018,25 @@
         "id": 204,
         "name": "Woocommerce",
         "icon_class": "" 
+    },
+    {
+        "id": 205,
+        "name": "Learning",
+        "icon_class": "" 
+    },
+    {
+        "id": 206,
+        "name": "Medical Field",
+        "icon_class": "" 
+    },
+    {
+        "id": 207,
+        "name": "Desktop",
+        "icon_class": "desktop" 
+    },
+    {
+        "id": 208,
+        "name": "Chrome Extension",
+        "icon_class": "chrome" 
     }
 ]
