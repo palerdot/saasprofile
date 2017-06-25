@@ -339,7 +339,7 @@
             "Web based software",
             "Free/Freemium"
         ],
-        "tags": [74, 84, 60],
+        "tags": [30, 74, 84, 60],
         "weight": 5
     },
     {
@@ -929,7 +929,7 @@
         "name": "Wanqu",
         "description": "Article curation for chinese audience",
         "logo": "wanqu.png",
-        "url": "https://wanqu.co/?s=indiehacker",
+        "url": "https://wanqu.co",
         "info": [
             "IOS and web app available"
         ],
@@ -1279,7 +1279,7 @@
         "name": "Idea Check",
         "description": "Idea validation tool",
         "logo": "ideacheck-io.png",
-        "url": "http://www.ideacheck.io/?utm_source=indiehackers",
+        "url": "http://www.ideacheck.io/?utm_source=https://saasprofile.com",
         "info": [
             "Web based platform for validating business/startup ideas",
             "Subscription plans based on idea respondents"
@@ -1634,6 +1634,91 @@
             "Free/Freemium tool"
         ],
         "tags": [123, 32, 7],
+        "weight": 5
+    },
+    {
+        "id": 132,
+        "name": "SaferVPN",
+        "description": "VPN service",
+        "logo": "safervpn.png",
+        "url": "https://www.safervpn.com/",
+        "info": [
+            "Available for Windows, Mac, IOS, Android, and Chrome"
+        ],
+        "tags": [212, 116, 213],
+        "weight": 5
+    },
+    {
+        "id": 133,
+        "name": "AppToolkit.io",
+        "description": "Marketing tool for App developers",
+        "logo": "apptoolkit.png",
+        "url": "https://apptoolkit.io/",
+        "info": [
+            ""
+        ],
+        "tags": [96, 32, 42],
+        "weight": 5
+    },
+    {
+        "id": 134,
+        "name": "Lighting Shoes",
+        "description": "Shopify store for LED shoes",
+        "logo": "lighting-shoes.png",
+        "url": "http://lightingshoes.net/",
+        "info": [
+            "E-Commerce store sellling LED shoes"
+        ],
+        "tags": [71, 19],
+        "weight": 5
+    },
+    {
+        "id": 135,
+        "name": "Gifty Weddings",
+        "description": "Simple Wedding gift registry",
+        "logo": "gifty-weddings.png",
+        "url": "https://giftyweddings.com/",
+        "info": [
+            "One time payment for creating wedding gift registry"
+        ],
+        "tags": [170, 169, 214],
+        "weight": 5
+    },
+    {
+        "id": 136,
+        "name": "RecurPost",
+        "description": "Social media management",
+        "logo": "recurpost.png",
+        "url": "http://recurpost.com/",
+        "info": [
+            "Free/Freemium"
+        ],
+        "tags": [30, 74],
+        "weight": 5
+    },
+    {
+        "id": 137,
+        "name": "BugTower",
+        "description": "Bug Tracking web app",
+        "logo": "bugtower.png",
+        "url": "https://bugtower.com/",
+        "info": [
+            "Monthly subscription plans"
+        ],
+        "tags": [171, 41, 10],
+        "weight": 5
+    },
+    {
+        "id": 138,
+        "name": "Weather Extension",
+        "description": "Weather checker",
+        "logo": "weather-extension.png",
+        "url": "https://weatherextension.com/",
+        "info": [
+            "Browser extension to check weather in the browser",
+            "Free/Freemium"
+        ],
+        "tags": [177, 208, 215],
         "weight": 5
     }
 ]

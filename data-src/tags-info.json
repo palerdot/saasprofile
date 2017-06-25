@@ -381,7 +381,7 @@
     },
     {
         "id": 77,
-        "name": "IOS / Mac",
+        "name": "iOS / Mac",
         "icon_class": "apple" 
     },
     {
@@ -1053,5 +1053,25 @@
         "id": 211,
         "name": "Hacker News",
         "icon_class": "hacker news" 
+    },
+    {
+        "id": 212,
+        "name": "VPN (Virtual Private Network)",
+        "icon_class": "" 
+    },
+    {
+        "id": 213,
+        "name": "Security",
+        "icon_class": "" 
+    },
+    {
+        "id": 214,
+        "name": "Wedding",
+        "icon_class": "" 
+    },
+    {
+        "id": 215,
+        "name": "Browser Extensions",
+        "icon_class": "" 
     }
 ]

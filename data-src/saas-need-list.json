@@ -41,5 +41,15 @@
         "id": 7,
         "text": "API tools for developers",
         "tags": [63, 10, 37]
+    },
+    {
+        "id": 8,
+        "text": "Gift Registries",
+        "tags": [169, 170]
+    },
+    {
+        "id": 9,
+        "text": "Social Media Schedulers",
+        "tags": [30, 74]
     }
 ]
