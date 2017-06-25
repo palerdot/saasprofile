@@ -51,5 +51,10 @@
         "id": 9,
         "text": "Social Media Schedulers",
         "tags": [30, 74]
-    }
+    },
+    {
+        "id": 10,
+        "text": "Disable friendly softwares",
+        "tags": [11, 135]
+    },
 ]
