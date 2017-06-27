@@ -946,7 +946,7 @@
             "Artificial Intelligence based logo creation",
             "Flexible monthly subscription plans"
         ],
-        "tags": [157, 158, 7],
+        "tags": [157, 158, 7, 219],
         "weight": 5
     },
     {
@@ -1719,6 +1719,94 @@
             "Free/Freemium"
         ],
         "tags": [177, 208, 215],
+        "weight": 5
+    },
+    {
+        "id": 139,
+        "name": "Discourse",
+        "description": "Forum/community website software",
+        "logo": "discourse.png",
+        "url": "https://www.discourse.org/",
+        "info": [
+            "Self Hosted free version",
+            "Pro version with managed hosting"
+        ],
+        "tags": [216, 99, 72, 6],
+        "weight": 5
+    },
+    {
+        "id": 140,
+        "name": "KidGenius",
+        "description": "Management Software for Childcare",
+        "logo": "kidgenius.png",
+        "url": "https://www.daycareiq.com/kidgenius",
+        "info": [
+            "Child care management software",
+            "Subscription based on per-child basis"
+        ],
+        "tags": [24, 217],
+        "weight": 5
+    },
+    {
+        "id": 141,
+        "name": "Cronometer",
+        "description": "Nutrition Tracker",
+        "logo": "cronometer.png",
+        "url": "https://cronometer.com/",
+        "info": [
+            "CRON diet (Caloric Restriction w/ Optimal Nutrition) based nutrition tracker",
+            "Free/Freemium"
+        ],
+        "tags": [9, 25, 218, 57],
+        "weight": 5
+    },
+    {
+        "id": 142,
+        "name": "UXClub.com",
+        "description": "Learning platform for UX designers",
+        "logo": "uxclub-com.png",
+        "url": "https://uxclub.com/",
+        "info": [
+            "Video platform for learning UX",
+            "Monthly subscription"
+        ],
+        "tags": [205, 7, 119],
+        "weight": 5
+    },
+    {
+        "id": 143,
+        "name": "NinjaOutreach",
+        "description": "Lead prospecting and outreach tool",
+        "logo": "ninjaoutreach.png",
+        "url": "http://ninjaoutreach.com/",
+        "info": [
+            "Monthly subscription plans"
+        ],
+        "tags": [132, 32, 96],
+        "weight": 5
+    },
+    {
+        "id": 144,
+        "name": "Ladder",
+        "description": "Growth Marketing Tech agency",
+        "logo": "ladder.png",
+        "url": "https://ladder.io/",
+        "info": [
+            "Monthly subscription plans"
+        ],
+        "tags": [96, 94, 219, 16],
+        "weight": 5
+    },
+    {
+        "id": 145,
+        "name": "UX Power Tools",
+        "description": "Sketch Design Framework and UI Kit",
+        "logo": "ux-power-tools.png",
+        "url": "https://www.uxpower.tools/",
+        "info": [
+            ""
+        ],
+        "tags": [174, 7, 145],
         "weight": 5
     }
 ]

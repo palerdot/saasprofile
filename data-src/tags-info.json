@@ -246,7 +246,7 @@
     },
     {
         "id": 50,
-        "name": "Usage Tracking",
+        "name": "Usage Tracker",
         "icon_class": "" 
     },
     {
@@ -281,7 +281,7 @@
     },
     {
         "id": 57,
-        "name": "Tracking",
+        "name": "Tracker",
         "icon_class": "" 
     },
     {
@@ -301,7 +301,7 @@
     },
     {
         "id": 61,
-        "name": "Goal-Tracking",
+        "name": "Goal-Tracker",
         "icon_class": "" 
     },
     {
@@ -496,7 +496,7 @@
     },
     {
         "id": 100,
-        "name": "Time Tracking",
+        "name": "Time Tracker",
         "icon_class": "hourglass start" 
     },
     {
@@ -866,7 +866,7 @@
     },
     {
         "id": 174,
-        "name": "User Interface",
+        "name": "UX & UI",
         "icon_class": "" 
     },
     {
@@ -1072,6 +1072,26 @@
     {
         "id": 215,
         "name": "Browser Extensions",
+        "icon_class": "" 
+    },
+    {
+        "id": 216,
+        "name": "Forum",
+        "icon_class": "" 
+    },
+    {
+        "id": 217,
+        "name": "Childcare",
+        "icon_class": "" 
+    },
+    {
+        "id": 218,
+        "name": "Nutrition",
+        "icon_class": "" 
+    },
+    {
+        "id": 219,
+        "name": "Machine Learning",
         "icon_class": "" 
     }
 ]
