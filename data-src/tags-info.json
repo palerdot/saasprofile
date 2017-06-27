@@ -1093,5 +1093,10 @@
         "id": 219,
         "name": "Machine Learning",
         "icon_class": "" 
+    },
+    {
+        "id": 220,
+        "name": "Touch Typing",
+        "icon_class": "" 
     }
 ]

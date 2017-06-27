@@ -1437,6 +1437,19 @@
         "weight": 5
     },
     {
+        "id": 115,
+        "name": "Hotcold Typing",
+        "description": "Smart Touch Typing Learning platform",
+        "logo": "hotcold-typing.jpg",
+        "url": "http://hotcoldtyping.com",
+        "info": [
+            "Free Touch typing learning tool",
+            "Available for Windows, Linux, Mac and for Chrome browser"
+        ],
+        "tags": [220, 205, 144, 95, 207],
+        "weight": 5
+    },
+    {
         "id": 116,
         "name": "Iconic",
         "description": "Woocommerce plugins",
@@ -1803,9 +1816,7 @@
         "description": "Sketch Design Framework and UI Kit",
         "logo": "ux-power-tools.png",
         "url": "https://www.uxpower.tools/",
-        "info": [
-            ""
-        ],
+        "info": [],
         "tags": [174, 7, 145],
         "weight": 5
     }
