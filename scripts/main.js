@@ -49,8 +49,10 @@ var APP = {
                 $("#progress-bar").progress("set percent", 100);
                 // clear the progress timer
                 window.clearInterval( self.progressTimer );
-                // hide the progress bar
-                $("#progress-bar").hide();
+                // hide the progress bar after a delay
+                _.delay( function () {
+                    $("#progress-bar").hide();
+                }, 1500 )
             } );
     },
 
