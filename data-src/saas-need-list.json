@@ -34,7 +34,7 @@
     },
     {
         "id": 6,
-        "text": "Email marketing softwares",
+        "text": "Email marketing solutions",
         "tags": [39, 96]
     },
     {
@@ -56,5 +56,10 @@
         "id": 10,
         "text": "Disable friendly softwares",
         "tags": [11, 135]
+    },
+    {
+        "id": 11,
+        "text": "Tech Magazines",
+        "tags": [221, 36]
     }
 ]

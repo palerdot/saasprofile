@@ -1819,5 +1819,90 @@
         "info": [],
         "tags": [174, 7, 145],
         "weight": 5
+    },
+    {
+        "id": 146,
+        "name": "SendPulse",
+        "description": "Maximising email open rates",
+        "logo": "sendpulse.png",
+        "url": "https://sendpulse.com/",
+        "info": [
+            "Free/Freemium plans with monthly subscription based on email list subscribers"
+        ],
+        "tags": [39, 96, 94, 60, 219],
+        "weight": 5
+    },
+    {
+        "id": 147,
+        "name": "Offscreen Magazine",
+        "description": "Magazine about tech people",
+        "logo": "offscreen-magazine.png",
+        "url": "https://www.offscreenmag.com/issues",
+        "info": [
+            "Independent print magazine and weekly newsletter"
+        ],
+        "tags": [221, 36, 5],
+        "weight": 5
+    },
+    {
+        "id": 148,
+        "name": "Angular on Rails",
+        "description": "Teaching Angular to Rails developers",
+        "logo": "angular-on-rails.png",
+        "url": "https://www.angularonrails.com/",
+        "info": [
+            "Ebook for learning angular for rails developers"
+        ],
+        "tags": [205, 222, 119, 36],
+        "weight": 5
+    },
+    {
+        "id": 149,
+        "name": "ThemeIsle",
+        "description": "Wordpress themes",
+        "logo": "themeisle.png",
+        "url": "https://themeisle.com/wordpress-themes",
+        "info": [
+            "Free/Freemium themes"
+        ],
+        "tags": [51, 223],
+        "weight": 5
+    },
+    {
+        "id": 150,
+        "name": "GifShare",
+        "description": "Instagram Gif Editor",
+        "logo": "gifshare.png",
+        "url": "https://itunes.apple.com/us/app/gifshare-post-gifs-for-instagram-as-videos/id873187815?mt=8",
+        "info": [
+            "App to convert gifs to videos",
+            "Available for IOS only"
+        ],
+        "tags": [93, 29, 28, 30, 77],
+        "weight": 5
+    },
+    {
+        "id": 151,
+        "name": "QuickDraw",
+        "description": "Affiliate Marketing Reporting",
+        "logo": "quickdraw.png",
+        "url": "https://quickdraw.onsightdigitalsolutions.com/about",
+        "info": [
+            "Monthly subscription plans"
+        ],
+        "tags": [96, 224, 179],
+        "weight": 5
+    },
+    {
+        "id": 152,
+        "name": "Baremetrics",
+        "description": "Revenue Analytics Platform",
+        "logo": "baremetrics.png",
+        "url": "https://baremetrics.com/",
+        "info": [
+            "Monthly subscription plans based on business size"
+        ],
+        "tags": [60, 16, 191, 144],
+        "weight": 5
     }
 ]

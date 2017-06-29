@@ -1098,5 +1098,25 @@
         "id": 220,
         "name": "Touch Typing",
         "icon_class": "" 
+    },
+    {
+        "id": 221,
+        "name": "Magazine",
+        "icon_class": "" 
+    },
+    {
+        "id": 222,
+        "name": "E-book",
+        "icon_class": "" 
+    },
+    {
+        "id": 223,
+        "name": "Themes",
+        "icon_class": "" 
+    },
+    {
+        "id": 224,
+        "name": "Affliate",
+        "icon_class": "" 
     }
 ]
