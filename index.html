@@ -161,7 +161,15 @@
     <script type="text/javascript" src="/js/lodash.min.js"></script>
     <script type="text/javascript" src="js/vue.min.js"></script>
     <script type="text/javascript" src="/js/semantic.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script type="text/javascript" src="js/main.js"></script> -->
+    <script>
+        // manually set the version if we want to bust the cache
+        var VERSION = 0.1; 
+
+        var script = document.createElement('script');
+        script.src = 'js/main.js?v=' + VERSION;
+        document.write(script.outerHTML);
+    </script>
 </body>
 
 </html>

@@ -45,6 +45,8 @@ var APP = {
             .always( function () {
                 // set loading status as false to hide the loading
                 self.sp_error_vue.loading = false;
+                // set percent to hundred before clearing the timer
+                $("#progress-bar").progress("set percent", 100);
                 // clear the progress timer
                 window.clearInterval( self.progressTimer );
                 // hide the progress bar
