@@ -47,6 +47,8 @@ var APP = {
                 self.sp_error_vue.loading = false;
                 // set percent to hundred before clearing the timer
                 $("#progress-bar").progress("set percent", 100);
+                // hide the dimmer
+                $("#saas-grid").dimmer("hide");
                 // clear the progress timer
                 window.clearInterval( self.progressTimer );
                 // hide the progress bar after a delay
@@ -74,6 +76,8 @@ var APP = {
     initProgressBar: function () {
         // init the progress bar
         $("#progress-bar").progress();
+        // also init the dimmer
+        $("#saas-grid").dimmer("show");
 
         var PROGRESS = 33; // seed with initial progress percent
         // set up the timer
