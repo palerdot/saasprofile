@@ -4,6 +4,9 @@ var APP = {
 
         var self = this; // save reference
 
+        // init the progress bar and timer to update the progress
+        this.initProgressBar();
+
         // fetch the dependencies
         // fetch tags data
         var $fetchTagsData = $.ajax({
@@ -42,6 +45,10 @@ var APP = {
             .always( function () {
                 // set loading status as false to hide the loading
                 self.sp_error_vue.loading = false;
+                // clear the progress timer
+                window.clearInterval( self.progressTimer );
+                // hide the progress bar
+                $("#progress-bar").hide();
             } );
     },
 
@@ -56,6 +63,24 @@ var APP = {
         this.update_saas_list = _.debounce( this.update_saas_list_from_tags, 1 );
         // tracking the source of where a selection is made - saas-need/tags-list
         this.source = "";
+    },
+
+    // init the progress bar
+    // also set up interval to update progress while we fetch the dependencies
+    initProgressBar: function () {
+        // init the progress bar
+        $("#progress-bar").progress();
+
+        var PROGRESS = 33; // seed with initial progress percent
+        // set up the timer
+        this.progressTimer = window.setInterval( function () {
+            var UPDATED_PROGRESS = Math.floor( PROGRESS + (100 - PROGRESS) * 0.33 );
+            // set the updated progress percent
+            $("#progress-bar")
+                .progress("set percent", UPDATED_PROGRESS);
+            // update the progress with updated value
+            PROGRESS = UPDATED_PROGRESS;
+        }, 750 );
     },
 
     init_DOM_events: function() {
