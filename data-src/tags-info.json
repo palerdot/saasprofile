@@ -1118,5 +1118,30 @@
         "id": 224,
         "name": "Affliate",
         "icon_class": "" 
+    },
+    {
+        "id": 225,
+        "name": "Metrics",
+        "icon_class": "" 
+    },
+    {
+        "id": 226,
+        "name": "Pets",
+        "icon_class": "" 
+    },
+    {
+        "id": 227,
+        "name": "Flight",
+        "icon_class": "" 
+    },
+    {
+        "id": 228,
+        "name": "Savings",
+        "icon_class": "" 
+    },
+    {
+        "id": 229,
+        "name": "Vector",
+        "icon_class": "" 
     }
 ]

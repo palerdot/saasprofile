@@ -1902,7 +1902,93 @@
         "info": [
             "Monthly subscription plans based on business size"
         ],
-        "tags": [60, 16, 191, 144],
+        "tags": [60, 16, 191, 144, 225],
+        "weight": 5
+    },
+    {
+        "id": 153,
+        "name": "Mailbird",
+        "description": "Unifies all online communications",
+        "logo": "mailbird.png",
+        "url": "http://getmailbird.com/",
+        "info": [
+            "Email platform for Windows",
+            "Free/Freemium with annual subscription & one-time payment for PRO version"
+        ],
+        "tags": [36, 39, 17, 102],
+        "weight": 5
+    },
+    {
+        "id": 154,
+        "name": "Intrinio",
+        "description": "Financial data and analysis platform",
+        "logo": "intrinio.png",
+        "url": "https://intrinio.com/",
+        "info": [
+            "Finance/Trading data provider"
+        ],
+        "tags": [13, 36, 60, 144, 63],
+        "weight": 5
+    },
+    {
+        "id": 155,
+        "name": "Gourmet Pup Club",
+        "description": "Dog Treat subscription service",
+        "logo": "gourmet-pup-club.png",
+        "url": "https://www.gourmetpupclub.com/",
+        "info": [
+            "Available only within U.S.A"
+        ],
+        "tags": [226, 191, 190, 9],
+        "weight": 5
+    },
+    {
+        "id": 156,
+        "name": "Scott's Cheap Flights",
+        "description": "Cheap Flights subscription service",
+        "logo": "scotts-cheap-flights.png",
+        "url": "https://www.scottscheapflights.com/",
+        "info": [
+            "Freemium email based subscription service"
+        ],
+        "tags": [227, 191, 228],
+        "weight": 5
+    },
+    {
+        "id": 157,
+        "name": "Free Vector Maps",
+        "description": "Free Vector maps for designers",
+        "logo": "freevector-maps.png",
+        "url": "https://freevectormaps.com/",
+        "info": [
+            "Free for maps with attribution",
+            "Pro paid royalty-free licenses"
+        ],
+        "tags": [34, 229, 7],
+        "weight": 5
+    },
+    {
+        "id": 158,
+        "name": "BuildMyEmails",
+        "description": "Email Marketing",
+        "logo": "buildmyemails.png",
+        "url": "https://buildmyemails.com/",
+        "info": [
+            "Marketing mail templates for all platforms"
+        ],
+        "tags": [39, 96, 32, 16],
+        "weight": 5
+    },
+    {
+        "id": 159,
+        "name": "Site Builder Report",
+        "description": "",
+        "logo": "site-builder-report.png",
+        "url": "Website Builder reviews",
+        "info": [
+            ""
+        ],
+        "tags": [53, 52, 185, 144],
         "weight": 5
     }
 ]
