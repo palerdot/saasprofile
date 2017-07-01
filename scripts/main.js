@@ -55,7 +55,7 @@ var APP = {
                 // hide the progress bar after a delay
                 _.delay( function () {
                     $("#progress-bar").hide();
-                }, 1500 )
+                }, 777 )
             } );
     },
 
