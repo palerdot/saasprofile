@@ -73,4 +73,14 @@ nav a {
         border: thin solid $sp_red;
     }    
     
+    .interesting {
+        .star.icon {
+            color: white !important;
+            opacity: 1 !important;
+            &:hover {
+                color: inherit !important;
+            }
+        }
+    }
+
 }

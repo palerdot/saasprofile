@@ -31,7 +31,8 @@ var APP = {
             .done(function(tData, nData, sData) {
                 self.tagsInfo = _.sortBy( tData[0], function (tags) { return -tags.weight; } );
                 self.needInfo = _.sortBy( nData[0], function (n) { return -n.weight; } );
-                self.saasInfo = _.sortBy( sData[0], function (saas) { return -saas.weight; } );
+                // for initial saas sort by weight, and interesting
+                self.saasInfo = _.orderBy( sData[0], ["interesting", "weight"], ["asc", "desc"] );
                 // proceed with app initialization
                 self.start();
             })
@@ -142,6 +143,9 @@ var APP = {
             .sticky({
                 context: "#saas-grid"
             });
+
+        // init popup for interesting
+        $(".interesting").popup();
     },
 
     // helper function for constructing the tag icons
@@ -333,6 +337,8 @@ var APP = {
                                     .filter( function (saas) {
                                         return _.size( _.intersection( filtered_tags, saas.tags ) ) > 0;
                                     } )
+                                    // order by intersting and weight
+                                    .orderBy( ["interesting", "weight"], ["asc", "desc"] )
                                     // sort by saas which has most matching tags
                                     .sortBy( function (saas) {
                                         // sort by matching tags and order in descending order
