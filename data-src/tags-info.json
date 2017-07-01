@@ -1143,5 +1143,35 @@
         "id": 229,
         "name": "Vector",
         "icon_class": "" 
+    },
+    {
+        "id": 230,
+        "name": "Linux Servers",
+        "icon_class": "" 
+    },
+    {
+        "id": 231,
+        "name": "SSH (Secure Shell)",
+        "icon_class": "" 
+    },
+    {
+        "id": 232,
+        "name": "Freelance / Contractor",
+        "icon_class": "" 
+    },
+    {
+        "id": 233,
+        "name": "Web Hosting",
+        "icon_class": "" 
+    },
+    {
+        "id": 234,
+        "name": "Crowd Sourcing",
+        "icon_class": "" 
+    },
+    {
+        "id": 235,
+        "name": "Search",
+        "icon_class": "" 
     }
 ]

@@ -1990,5 +1990,86 @@
         ],
         "tags": [53, 52, 185, 144],
         "weight": 5
+    },
+    {
+        "id": 160,
+        "name": "dply.co",
+        "description": "Free temporary linux servers for 2 hours",
+        "logo": "",
+        "url": "https://dply.co",
+        "info": [],
+        "tags": [230, 231, 49, 36, 143],
+        "weight": 5
+    },
+    {
+        "id": 161,
+        "name": "Felix",
+        "description": "Autopay for Freelancers",
+        "logo": "felix.png",
+        "url": "https://felixapp.co/",
+        "info": [
+            "Autopayment system for freelancers & Independent contractors",
+            "Charge of 1% of billed amount"
+        ],
+        "tags": [12, 232, 43, 144],
+        "weight": 5
+    },
+    {
+        "id": 162,
+        "name": "Sneez",
+        "description": "E-Commerce Social selling automation",
+        "logo": "sneez.png",
+        "url": "https://sneez.io/",
+        "info": [
+            "Monthly subscription plans"
+        ],
+        "tags": [19, 30, 43, 112],
+        "weight": 5
+    },
+    {
+        "id": 163,
+        "name": "Review Signal",
+        "description": "Web hosting reviews",
+        "logo": "reviewsignal.png",
+        "url": "http://reviewsignal.com/webhosting",
+        "info": [
+            "Listing of webhosting reviews"
+        ],
+        "tags": [233, 185, 173],
+        "weight": 5
+    },
+    {
+        "id": 164,
+        "name": "Crowdraising",
+        "description": "Crowd sourcing platform",
+        "logo": "crowdraising.png",
+        "url": "https://www.crowdraising.co/",
+        "info": [
+            "Platform to pledge time instead of money"
+        ],
+        "tags": [234, 144, 99],
+        "weight": 5
+    },
+    {
+        "id": 165,
+        "name": "Flystein",
+        "description": "Human-Powered flight search service", 
+        "logo": "flystein.png",
+        "url": "https://www.flystein.com/",
+        "info": [
+            "Monthly Subscriptions for finding cheap flight fares"
+        ],
+        "tags": [227, 235, 144, 228],
+        "weight": 5
+    },
+    {
+        "id": 166,
+        "name": "Concorde.io",
+        "description": "Find Cheap flights",
+        "logo": "concorde-logo.png",
+        "url": "https://concorde.io/",
+        "info": [],
+        "tags": [227, 235, 144, 228],
+        "weight": 5
     }
 ]
