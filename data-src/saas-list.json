@@ -760,7 +760,8 @@
             "Software job board for 35+ aged"
         ],
         "tags": [134, 135, 2, 36],
-        "weight": 5
+        "weight": 5,
+        "interesting": true
     },
     {
         "id": 61,
@@ -1336,7 +1337,8 @@
             "Available for consumers and solar service providers"
         ],
         "tags": [199, 200, 77, 42],
-        "weight": 5
+        "weight": 5,
+        "interesting": true
     },
     {
         "id": 107,
