@@ -1193,5 +1193,30 @@
         "id": 239,
         "name": "Microsoft Excel",
         "icon_class": "" 
+    },
+    {
+        "id": 240,
+        "name": "Note Taking App",
+        "icon_class": "" 
+    },
+    {
+        "id": 241,
+        "name": "NewsLetter",
+        "icon_class": "" 
+    },
+    {
+        "id": 242,
+        "name": "Side Project",
+        "icon_class": "" 
+    },
+    {
+        "id": 243,
+        "name": "Documentation",
+        "icon_class": "" 
+    },
+    {
+        "id": 244,
+        "name": "Lecture",
+        "icon_class": "" 
     }
 ]

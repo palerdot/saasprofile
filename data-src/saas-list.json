@@ -2154,5 +2154,80 @@
         ],
         "tags": [129, 205, 239, 83],
         "weight": 5
+    },
+    {
+        "id": 174,
+        "name": "Standard Ebooks",
+        "description": "Free standard ebooks",
+        "logo": "standard-ebooks.png",
+        "url": "https://standardebooks.org/",
+        "info": [],
+        "tags": [222, 5, 7, 162],
+        "weight": 7
+    },
+    {
+        "id": 175,
+        "name": "Dnote",
+        "description": "Note taking command-line tool for programmers",
+        "logo": "dnote.png",
+        "url": "https://dnote.io/",
+        "info": [
+            "Free note taking tool in command-line / terminal"
+        ],
+        "tags": [240, 35, 36, 3, 6],
+        "weight": 5
+    },
+    {
+        "id": 176,
+        "name": "Opps Daily",
+        "description": "Get ideas / opportunites for business in email",
+        "logo": "",
+        "url": "http://www.oppsdaily.com/",
+        "info": [],
+        "tags": [39, 241, 16, 17, 242],
+        "weight": 5
+    },
+    {
+        "id": 177,
+        "name": "Dash for iOS / mac",
+        "description": "Instant offline access to API documentation sets",
+        "logo": "dash.png",
+        "url": "https://kapeli.com/dash",
+        "info": [],
+        "tags": [63, 243, 203, 77, 10],
+        "weight": 5
+    },
+    {
+        "id": 178,
+        "name": "Upstart",
+        "description": "Find targed email newsletter for business and side-projects",
+        "logo": "upstart-me.png",
+        "url": "http://upstart.me/",
+        "info": [],
+        "tags": [39, 241, 16, 242],
+        "weight": 5
+    },
+    {
+        "id": 179,
+        "name": "Find Lectures",
+        "description": "Lecture search platform",
+        "logo": "",
+        "url": "https://www.findlectures.com/",
+        "info": [],
+        "tags": [244, 205, 20, 235, 144],
+        "weight": 5
+    },
+    {
+        "id": 180,
+        "name": "Alt News",
+        "description": "Alternative news platform",
+        "logo": "",
+        "url": "https://www.altnews.in/",
+        "info": [
+            "Alternative News platform for India",
+            "Available for India region only"
+        ],
+        "tags": [18],
+        "weight": 5
     }
 ]
