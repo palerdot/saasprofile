@@ -51,7 +51,7 @@
     },
     {
         "id": 11,
-        "name": "Disabled/Differently-Abled Friendly",
+        "name": "Disabled / Differently-Abled Friendly",
         "icon_class": "handicap" 
     },
     {
@@ -1172,6 +1172,26 @@
     {
         "id": 235,
         "name": "Search",
+        "icon_class": "" 
+    },
+    {
+        "id": 236,
+        "name": "Color-Blind software",
+        "icon_class": "" 
+    },
+    {
+        "id": 237,
+        "name": "IP (Internet Protocol)",
+        "icon_class": "" 
+    },
+    {
+        "id": 238,
+        "name": "Habits",
+        "icon_class": "" 
+    },
+    {
+        "id": 239,
+        "name": "Microsoft Excel",
         "icon_class": "" 
     }
 ]

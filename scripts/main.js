@@ -97,8 +97,12 @@ var APP = {
 
         // clear all filters
         $("#clear-filters").click( function () {
-            console.log("porumai! clearing all filters ");
+            console.log("porumai! clearing all filters and tag search");
             $("#tag-list-dropdown").dropdown("set exactly", "");
+            // also manually clear the tag search to fix the 'semantic-ui' bug which shows previosly filtered tags
+            $("#tags-search")
+                .val("")
+                .trigger("input");
         } );
 
         // initialize dropdown for saas need

@@ -2073,5 +2073,86 @@
         "info": [],
         "tags": [227, 235, 144, 228],
         "weight": 5
+    },
+    {
+        "id": 167,
+        "name": "Cone",
+        "description": "Color Picker tool for color-blind",
+        "logo": "cone-ios.png",
+        "url": "https://coneapp.io/",
+        "info": [
+            "Available for IOS platform only"
+        ],
+        "tags": [164, 236, 135, 11, 32, 77],
+        "weight": 9,
+        "interesting": true
+    },
+    {
+        "id": 168,
+        "name": "Ipinfo.io",
+        "description": "Comprehensive IP details website and API",
+        "logo": "ipinfo.jpg",
+        "url": "ipinfo.io",
+        "info": [
+            "Free/Freemium api services"
+        ],
+        "tags": [237, 63, 116, 90],
+        "weight": 5
+    },
+    {
+        "id": 169,
+        "name": "Runway",
+        "description": "Cash planning tool for startup",
+        "logo": "runway.jpg",
+        "url": "https://startuprunway.io",
+        "info": [],
+        "tags": [13, 228, 195, 36],
+        "weight": 5
+    },
+    {
+        "id": 170,
+        "name": "Hacker Hunt",
+        "description": "Curation of Show HN posts of Hacker News",
+        "logo": "hacker-hunt.jpg",
+        "url": "https://hackerhunt.co/",
+        "info": [],
+        "tags": [211, 36, 195, 173],
+        "weight": 5
+    },
+    {
+        "id": 171,
+        "name": "everydayCheck",
+        "description": "Habit Tracking app",
+        "logo": "everydaycheck.jpg",
+        "url": "https://everydaycheck.com/",
+        "info": [
+            "Paid app with free trial"
+        ],
+        "tags": [238, 57, 3, 32],
+        "weight": 5
+    },
+    {
+        "id": 172,
+        "name": "Loop Habits",
+        "description": "Habit Tracking app",
+        "logo": "loop-habits.jpg",
+        "url": "https://play.google.com/store/apps/details?id=org.isoron.uhabits&hl=en",
+        "info": [
+            "Free Habit tracker for Android platform"
+        ],
+        "tags": [238, 57, 3, 32, 6, 76],
+        "weight": 11
+    },
+    {
+        "id": 173,
+        "name": "Chandoo.org",
+        "description": "Learn Excel online",
+        "logo": "",
+        "url": "http://chandoo.org/",
+        "info": [
+            "Blog to learn about Microsoft excel"
+        ],
+        "tags": [129, 205, 239, 83],
+        "weight": 5
     }
 ]
