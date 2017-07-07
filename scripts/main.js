@@ -72,6 +72,47 @@ var APP = {
         this.source = "";
     },
 
+    // subscribe event handler
+    subscribeUser: function (details) {
+
+        console.log("subscribing user ", details);
+
+        // ref: https://stackoverflow.com/questions/8425701/ajax-mailchimp-signup-form-integration
+
+        var $subscribeUser = $.ajax({
+            url: "http://saasprofile.us16.list-manage.com/subscribe/post-json?u=8dbadfb6930326e14b50326c6&amp;id=1e3956bc84&c=?",
+            type: "GET",
+            data: details,
+            cache: false,
+            dataType: 'json',
+            contentType: "application/json; charset=utf-8"
+        });
+
+        $.when( $subscribeUser )
+            .done( function () {
+                console.log("subscription mail sent");
+                // show the noty success alert message
+                new Noty({
+                    type: "success",
+                    text: "Thank you! Please confirm your email for updates.",
+                    theme: 'sunset'
+                }).show();
+            } )
+            .fail( function () {
+                // show the noty alert message
+                new Noty({
+                    type: "error",
+                    text: "Sorry! some problem in sending the confirmation mail. If possible please try again. Thank you!",
+                    timeout: 3000
+                }).show();
+            } )
+            .always( function () {
+                // close the modal anyway
+                $("#main-subscribe-form-modal").modal("hide");
+            } );
+
+    },
+
     // init the progress bar
     // also set up interval to update progress while we fetch the dependencies
     initProgressBar: function () {
@@ -93,6 +134,7 @@ var APP = {
     },
 
     init_DOM_events: function() {
+
         var self = this; // save reference
 
         // clear all filters
@@ -150,6 +192,153 @@ var APP = {
 
         // init popup for interesting
         $(".interesting").popup();
+
+        // scroll to feedback
+        $("#go-to-feedback").click( function (e) {
+
+            e.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $("#footer").offset().top
+            }, 333);
+
+        } );
+
+        $(".go-to-top").click( function (e) {
+
+            e.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $("body").offset().top
+            }, 333);
+
+        } );
+
+        // form validating rules
+        $('#main-subscribe-form')
+            .form(
+                {
+                    on: 'blur',
+                    inline: true,
+                    fields: {
+                      empty: {
+                        identifier  : 'empty',
+                        rules: [
+                          {
+                            type   : 'empty',
+                            prompt : 'Please enter a valid email address'
+                          }
+                        ]
+                    }
+                }}
+            );
+
+        // init the modals
+        $("#main-subscribe-form-modal")
+            .modal({
+
+                "onApprove": function ($el) {
+
+                    var $form = $(this).find("form"),
+                        data = $form.serialize(),
+                        data_json = deparam(data);
+
+                    if (!$.trim( data_json.EMAIL )) {
+                        console.log('stopping at validation ', data_json);
+                        // show error message
+                        return false;
+                    }
+
+                    console.log("subscriber data ", data, deparam(data), this);        
+                    // make a subscribe user request
+                    self.subscribeUser( data );
+                    // prevent modal from closing
+                    return false;
+
+                    function deparam(query) {
+                        var pairs, i, keyValuePair, key, value, map = {};
+                        // remove leading question mark if its there
+                        if (query.slice(0, 1) === '?') {
+                            query = query.slice(1);
+                        }
+                        if (query !== '') {
+                            pairs = query.split('&');
+                            for (i = 0; i < pairs.length; i += 1) {
+                                keyValuePair = pairs[i].split('=');
+                                key = decodeURIComponent(keyValuePair[0]);
+                                value = (keyValuePair.length > 1) ? decodeURIComponent(keyValuePair[1]) : undefined;
+                                map[key] = value;
+                            }
+                        }
+                        return map;
+                    }
+
+                }
+            });
+
+        console.log('about to show main subscribe form');
+
+
+        $("#footer-subscribe-form").on("click", function (e) {
+            console.log("showing main subscribe form ");
+
+            var email = $("#footer-subscriber-email").val().trim();
+
+            if (!email) {
+                // show error alert
+                new Noty({
+                    type: "error",
+                    text: "Please enter an email address for getting updates",
+                    timeout: 3000,
+                    theme: "sunset"
+                }).show();
+                // do not proceed
+                return;
+            }
+
+            // we have all the details set the data
+            self.subscribe_modal_vue.info_msg = "Please Subscribe to get updates on SaaS Profile";
+            self.subscribe_modal_vue.action_btn_text = "Subscribe";
+            self.subscribe_modal_vue.action = "subscribe";
+            // set the mail in the form for us to serialize
+            // self.subscribe_modal_vue.email = email;
+            $("#subscriber-email").val( email );
+
+            var $form = $("#main-subscribe-form"),
+                data = $form.serialize();
+            // make a subscribe user request
+            self.subscribeUser( data );
+            // prevent modal from closing
+            return false;
+        });
+
+        $("#my-saas-subscribe").on("click", function (e) {
+            console.log("showing main subscribe form ");
+
+            // set the data
+            self.subscribe_modal_vue.info_msg = "'My SaaS' feature helps you to bookmark, track your spending of SaaS. This feature will be released in near future for beta audience. If you are interested please let me know!";
+            self.subscribe_modal_vue.action_btn_text = "Notify me!";
+            self.subscribe_modal_vue.action = "mysaas";
+
+            // and show the modal
+            $("#main-subscribe-form-modal").modal("show");
+            return false;
+        });
+
+        // subscription for select by geography feature
+        $("#geography-subscribe").on("click", function (e) {
+            console.log("showing geography subscribe form ");
+
+            // set the data
+            self.subscribe_modal_vue.info_msg = "This feature will be released in near future for beta audience. If you are interested please let me know!";
+            self.subscribe_modal_vue.action_btn_text = "Notify me!";
+            self.subscribe_modal_vue.action = "geography";
+
+            // and show the modal
+            $("#main-subscribe-form-modal").modal("show");
+            return false;
+        });
+
     },
 
     // helper function for constructing the tag icons
@@ -307,6 +496,18 @@ var APP = {
 
         });
 
+        // subscription modal vue
+        this.subscribe_modal_vue = new Vue({
+
+            el: "#main-subscribe-form",
+
+            data: {
+                info_msg: "Please Subscribe to get updates on SaaS Profile",
+                action_btn_text: "Subscribe",
+                action: "subscribe"
+            }
+
+        });
 
     },
 

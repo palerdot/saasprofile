@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="/css/semantic.min.css" media="screen,projection" />
     <!-- <link type="text/css" rel="stylesheet" href="/css/main.css" media="screen,projection" /> -->
+    <link type="text/css" rel="stylesheet" href="/css/noty.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="/css/saasprofile.css" media="screen,projection" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -20,8 +21,10 @@
                 <img class="logo" src="logo/saasprofile-128.png"> SaaS Profile
             </div>
             <div class="right menu">
-                <a href="#" class="item">Feedback</a>
-                <a href="#" class="item">About</a>
+                <a id="go-to-feedback" href="#" class="item">Feedback</a>
+                <a href="https://medium.com/@saasprofile" target="_blank" class="item">Blog</a>
+                <!-- <a href="#" id="show-main-subscribe-form" class="item">Subscribe</a> -->
+                <a href="#" id="my-saas-subscribe" class="item">My SaaS</a>
             </div>
         </div>
         <div id="progress-bar" class="ui bottom attached brown inverted progress" data-percent="33">
@@ -99,7 +102,7 @@
 
         <div class="ui container row">
             <div class="eight wide column left aligned">
-                <button class="mini ui basic disabled button">
+                <button id="geography-subscribe" class="mini ui basic button">
                     <i class="world icon"></i>
                     Select by geography
                     <br />
@@ -159,7 +162,96 @@
         </div>
     </div>
 
+    <div class="ui hidden divider"></div>
+
+    
+
+    <div id="footer" class="ui black inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted grid">
+
+                <div class="ui ten wide left floated column">
+                    <div class="ui large header inverted">Feedback</div>
+                    <p>
+                        SaaS Profile is a listing of interesting and useful software tools. The idea is to provide to easily navigate the world of SaaS from a human perspective. You can suggest changes like add/edit tags, needs, saas list etc through <a class="item ui blue color" href="https://twitter.com/saasprofile/" target="_blank">twitter</a>, <a href="https://medium.com/@saasprofile/" target="_blank">blog</a> or directly mail to <a href="mailto:arun@saasprofile.com" target="_blank">arun@saasprofile.com</a> 
+                    </p>
+                    <p>
+                        <a class="ui teal large label go-to-top">Go to top</a>
+                    </p>
+                </div>
+
+                <div class="six wide right floated column">
+
+                    <div class="ui form center aligned row">
+                        <h4 class="ui inverted teal header">Subscribe to get updates</h4>
+                        <div class="inline fields">
+                            <div class="ten wide field">
+                                <input id="footer-subscriber-email" type="email" placeholder="Email address ...">
+                            </div>
+                            <div class="six wide field">
+                                <button id="footer-subscribe-form" class="ui button larget teal" type="button">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui inverted divider"></div>
+
+                    <div class="ui form center aligned row">
+                        <div class="ui inverted link list">
+                            <a class="item" href="https://twitter.com/saasprofile/" target="_blank"> <i class="twitter icon"></i> Twitter</a>
+                        </div>
+                        <div class="ui inverted link list">
+                            <a class="item" href="https://medium.com/@saasprofile/" target="_blank"> <i class="medium icon"></i> Blog</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-subscribe-form-modal" class="ui basic small modal">
+        
+        <i class="close icon"></i>
+        
+        <div class="ui icon header">
+            <i class="mail icon"></i>
+        </div>
+
+        <form id="main-subscribe-form" action="//saasprofile.us16.list-manage.com/subscribe/post-json?u=8dbadfb6930326e14b50326c6&amp;id=1e3956bc84&c=?" method="post" class="ui form subscribe-form">
+            <div class="ui content center aligned segment">
+                <div class="ui form center aligned row">
+
+                    <!-- <h4 class="ui inverted green header">{{info_msg}}</h4> -->
+                    <div class="ui green message"> {{info_msg}} </div>
+                    
+                    <input type="hidden" name="u" value="8dbadfb6930326e14b50326c6">
+                    <input type="hidden" name="id" value="1e3956bc84">
+                    <input type="hidden" name="ACTION" v-bind:value="action">
+                    <div class="inline fields">
+                        <div class="sixteen wide field">
+                            <input id="subscriber-email" data-validate="empty" type="email" name="EMAIL" placeholder="Email address ...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui hidden divider"></div>
+
+            <div class="ui center aligned grid actions">
+                <div class="ui red deny button">
+                    Not Now
+                </div>
+                <button type="button" class="ui positive right labeled icon button">
+                    {{action_btn_text}}
+                    <i class="checkmark icon"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
     <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/noty.min.js"></script>
     <script type="text/javascript" src="/js/lodash.min.js"></script>
     <script type="text/javascript" src="js/vue.min.js"></script>
     <script type="text/javascript" src="/js/semantic.min.js"></script>
