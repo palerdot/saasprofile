@@ -316,7 +316,7 @@ var APP = {
             console.log("showing main subscribe form ");
 
             // set the data
-            self.subscribe_modal_vue.info_msg = "'My SaaS' feature helps you to bookmark, track your spending of SaaS. This feature will be released in near future for beta audience. If you are interested please let me know!";
+            self.subscribe_modal_vue.info_msg = "'My SaaS' helps you to bookmark, track expense and notifies new software for any particular need. This feature will be released in near future for beta audience. If you are interested please let me know!";
             self.subscribe_modal_vue.action_btn_text = "Notify me!";
             self.subscribe_modal_vue.action = "mysaas";
 
