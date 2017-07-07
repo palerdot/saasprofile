@@ -80,7 +80,7 @@ var APP = {
         // ref: https://stackoverflow.com/questions/8425701/ajax-mailchimp-signup-form-integration
 
         var $subscribeUser = $.ajax({
-            url: "http://saasprofile.us16.list-manage.com/subscribe/post-json?u=8dbadfb6930326e14b50326c6&amp;id=1e3956bc84&c=?",
+            url: "https://saasprofile.us16.list-manage.com/subscribe/post-json?u=8dbadfb6930326e14b50326c6&amp;id=1e3956bc84&c=?",
             type: "GET",
             data: details,
             cache: false,
