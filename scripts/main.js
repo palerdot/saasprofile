@@ -190,6 +190,11 @@ var APP = {
                 context: "#saas-grid"
             });
 
+        $("#share-buttons")
+            .sticky({
+                context: "#saas-grid"
+            });
+
         // init popup for interesting
         $(".interesting").popup();
 
