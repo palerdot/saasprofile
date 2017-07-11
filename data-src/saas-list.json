@@ -2200,7 +2200,7 @@
     {
         "id": 178,
         "name": "Upstart",
-        "description": "Find targed email newsletter for business and side-projects",
+        "description": "Find targeted email newsletter for business and side-projects",
         "logo": "upstart-me.png",
         "url": "http://upstart.me/",
         "info": [],
@@ -2228,6 +2228,68 @@
             "Available for India region only"
         ],
         "tags": [18],
+        "weight": 5
+    },
+    {
+        "id": 181,
+        "name": "ClearTax",
+        "description": "efiling Income Tax Returns in India",
+        "logo": "cleartax.png",
+        "url": "https://cleartax.in",
+        "info": [
+            "Free efiling Income tax returns for India region",
+            "Available for India region only"
+        ],
+        "tags": [245, 246, 247],
+        "weight": 5
+    },
+    {
+        "id": 182,
+        "name": "Artoo",
+        "description": "Lending/microfinance platform for MSME",
+        "logo": "artoo.png",
+        "url": "https://artoo.com",
+        "info": [
+            "Available for India region only"
+        ],
+        "tags": [248, 249, 250],
+        "weight": 5
+    },
+    {
+        "id": 183,
+        "name": "Remindoro",
+        "description": "Reminders in Chrome Browser",
+        "logo": "remindoro.jpg",
+        "url": "https://chrome.google.com/webstore/detail/remindoro/njmniggbfobokemdjebnhmbldimkofkc",
+        "info": [
+            "One-time/repeat reminders in chrome browser",
+            "Available as chrome browser extension only",
+            "Free chrome extension"
+        ],
+        "tags": [73, 3, 215, 208],
+        "weight": 5
+    },
+    {
+        "id": 184,
+        "name": "Grammarly",
+        "description": "Grammar checker tool to improve writing",
+        "logo": "grammarly.jpg",
+        "url": "https://www.grammarly.com/",
+        "info": [
+            "Free grammar checking tool to improve writing",
+            "Available as chrome extension and web app"
+        ],
+        "tags": [82, 251, 3, 208],
+        "weight": 5
+    },
+    {
+        "id": 185,
+        "name": "Momentum",
+        "description": "Personal dashboard in Chrome new tab",
+        "logo": "momentum-chrome.jpg",
+        "url": "https://momentumdash.com/",
+        "info": [],
+        "tags": [175, 3, 208],
         "weight": 5
     }
 ]

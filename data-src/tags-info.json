@@ -1218,5 +1218,40 @@
         "id": 244,
         "name": "Lecture",
         "icon_class": "" 
+    },
+    {
+        "id": 245,
+        "name": "Income tax",
+        "icon_class": "" 
+    },
+    {
+        "id": 246,
+        "name": "efiling",
+        "icon_class": "" 
+    },
+    {
+        "id": 247,
+        "name": "Tax Returns",
+        "icon_class": "" 
+    },
+    {
+        "id": 248,
+        "name": "Microfinance",
+        "icon_class": "" 
+    },
+    {
+        "id": 249,
+        "name": "Lending",
+        "icon_class": "" 
+    },
+    {
+        "id": 250,
+        "name": "MSME (Micro, Small & Medium Enterprises)",
+        "icon_class": "" 
+    },
+    {
+        "id": 251,
+        "name": "Grammar",
+        "icon_class": "" 
     }
 ]
