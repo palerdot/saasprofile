@@ -657,7 +657,7 @@
         "name": "Teezily",
         "description": "Design and sell t-shirts online",
         "logo": "teezily.jpg",
-        "url": "teezily.com",
+        "url": "https://teezily.com",
         "info": [
             "Web based e-commerce platform"
         ],
@@ -2291,5 +2291,17 @@
         "info": [],
         "tags": [175, 3, 208],
         "weight": 5
+    },
+    {
+        "id": 186,
+        "name": "Usersnap",
+        "description": "Visual feedback and bug tracking tool",
+        "logo": "usersnap.png",
+        "url": "https://usersnap.com",
+        "info": [
+            "Monthly subscription with free trial"
+        ],
+        "tags": [95, 171, 32],
+        "weight": 6
     }
 ]
