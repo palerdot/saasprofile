@@ -2303,5 +2303,17 @@
         ],
         "tags": [95, 171, 32],
         "weight": 6
+    },
+    {
+        "id": 187,
+        "name": "Proof Companion",
+        "description": "Create and practice Geometry proofs",
+        "logo": "",
+        "url": "http://www.proofcompanion.com/",
+        "info": [
+            ""
+        ],
+        "tags": [252, 205, 101],
+        "weight": 5
     }
 ]
